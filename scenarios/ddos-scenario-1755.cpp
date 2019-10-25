@@ -183,7 +183,7 @@ main(int argc, char* argv[])
   producerApp.Install(producerNodes); // last node  
 
   ndn::AppHelper detectionApp("DetectionApp");
-  detectionApp.Install(gw.Get(0)); // last node 
+  detectionApp.Install(gw); // last node 
 
   Simulator::Stop(Seconds(20.0));
   ndn::L3RateTracer::InstallAll("rate-trace.txt", Seconds(1.0));

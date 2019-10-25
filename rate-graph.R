@@ -37,6 +37,7 @@ df.avg = summaryBy(. ~ Time, data=df.test, FUN=mean)
 # graph rates on all nodes in PacketRaw
 fa = levels(df$Node)
 
+pdf("rate.pdf")
 g.root <- ggplot(df.avg) +
   geom_point(aes (x=Time, y=Rate.mean), size=2) +
   geom_line(aes (x=Time, y=Rate.mean), size=0.5) +

@@ -55,7 +55,7 @@ DetectionApp::GetPit()
   auto begin = forwarder->getPit().begin();
   auto end = forwarder->getPit().end();
   int size = forwarder->getPit().size();
-  NS_LOG_DEBUG("===== size of PIT is " << size << " =====");
+  // NS_LOG_DEBUG("===== size of PIT is " << size << " =====");
   set<Info> prefix;
   // set<int> num;
   for (auto iter = begin; iter != end; iter ++){
@@ -76,10 +76,10 @@ DetectionApp::GetPit()
   }
   double gini = 1.0;
   for(auto iter = prefix.begin(); iter != prefix.end(); iter ++){
-    cout << (*iter).prefix << " " << (*iter).num << endl;
+    // NS_LOG_DEBUG((*iter).prefix << " " << (*iter).num);
     gini -= double((*iter).num * (*iter).num) / (size * size);
   }
-  cout << gini << endl;
+  NS_LOG_DEBUG(gini);
   Simulator::Schedule(Seconds(1.0), &DetectionApp::GetPit, this);
 
 }
