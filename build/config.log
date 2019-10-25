@@ -1,4 +1,4 @@
-# project template (0.1) configured on Wed Oct 23 14:12:14 2019 by
+# project template (0.1) configured on Fri Oct 25 17:03:01 2019 by
 # waf 2.0.14 (abi 20, python 2070cf0 on linux2)
 # using ./waf configure
 #
@@ -531,12 +531,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_a96a4476625324e39f8d061e2d714e30/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_b2acf3a9b50563f24be335e6dc690c00/test.cpp[0m
 
-['/usr/bin/g++', '-Werror', '-std=c++14', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_a96a4476625324e39f8d061e2d714e30/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_a96a4476625324e39f8d061e2d714e30/testbuild/testprog[0m
+['/usr/bin/g++', '-Werror', '-std=c++14', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_b2acf3a9b50563f24be335e6dc690c00/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_b2acf3a9b50563f24be335e6dc690c00/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_a96a4476625324e39f8d061e2d714e30/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_b2acf3a9b50563f24be335e6dc690c00/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 -std=c++14
 ----------------------------------------
 Checking supported LINKFLAGS
@@ -548,12 +548,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_f9e4562736a948a3cf9c96eeaf148021/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_ee68a34c282fc57f93e81b8883c903f8/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_f9e4562736a948a3cf9c96eeaf148021/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_f9e4562736a948a3cf9c96eeaf148021/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_ee68a34c282fc57f93e81b8883c903f8/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_ee68a34c282fc57f93e81b8883c903f8/testbuild/testprog[0m
 
-['/usr/bin/g++', '-Werror', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_f9e4562736a948a3cf9c96eeaf148021/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', '-Werror', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_ee68a34c282fc57f93e81b8883c903f8/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 -fuse-ld=gold
 ----------------------------------------
 Checking for program 'pkg-config'
@@ -829,12 +829,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_1682cd2bfb0a3d785c66f243940c16c7/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_ed88e61ec52622a6da35f23a08db254b/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-O2', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_1682cd2bfb0a3d785c66f243940c16c7/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_1682cd2bfb0a3d785c66f243940c16c7/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-O2', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_ed88e61ec52622a6da35f23a08db254b/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_ed88e61ec52622a6da35f23a08db254b/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_1682cd2bfb0a3d785c66f243940c16c7/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_ed88e61ec52622a6da35f23a08db254b/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 ==>
 
 int main(int argc, char **argv) {
@@ -843,12 +843,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_611aa7535469b265e2d747dbe52f4be9/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_73b365f4ac79189c676675e5834048a0/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-g', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_611aa7535469b265e2d747dbe52f4be9/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_611aa7535469b265e2d747dbe52f4be9/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-g', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_73b365f4ac79189c676675e5834048a0/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_73b365f4ac79189c676675e5834048a0/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_611aa7535469b265e2d747dbe52f4be9/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_73b365f4ac79189c676675e5834048a0/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 ==>
 
 int main(int argc, char **argv) {
@@ -857,12 +857,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_36475c75abc5d769fd3ceca888e923e5/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_913dcf2af8e0635e54a7d65eeea0c6b9/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-pedantic', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_36475c75abc5d769fd3ceca888e923e5/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_36475c75abc5d769fd3ceca888e923e5/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-pedantic', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_913dcf2af8e0635e54a7d65eeea0c6b9/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_913dcf2af8e0635e54a7d65eeea0c6b9/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_36475c75abc5d769fd3ceca888e923e5/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_913dcf2af8e0635e54a7d65eeea0c6b9/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 ==>
 
 int main(int argc, char **argv) {
@@ -871,12 +871,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_5584567919e9517fb760d9ff28015d69/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_92fc57636d60b2464780c9e48ef7884a/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-Wall', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_5584567919e9517fb760d9ff28015d69/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_5584567919e9517fb760d9ff28015d69/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-Wall', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_92fc57636d60b2464780c9e48ef7884a/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_92fc57636d60b2464780c9e48ef7884a/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_5584567919e9517fb760d9ff28015d69/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_92fc57636d60b2464780c9e48ef7884a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 ==>
 
 int main(int argc, char **argv) {
@@ -885,12 +885,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_2aeca82ed612e3c8c82b00799102f1a2/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_23d6dae1aa9b4c8c574eed2223e49db3/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-Wextra', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_2aeca82ed612e3c8c82b00799102f1a2/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_2aeca82ed612e3c8c82b00799102f1a2/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-Wextra', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_23d6dae1aa9b4c8c574eed2223e49db3/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_23d6dae1aa9b4c8c574eed2223e49db3/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_2aeca82ed612e3c8c82b00799102f1a2/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_23d6dae1aa9b4c8c574eed2223e49db3/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 ==>
 
 int main(int argc, char **argv) {
@@ -899,12 +899,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_4c399812e9fc20f5b8d940230974eff5/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_90523304ec12a4372c7a8dcacda8e783/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-Wnon-virtual-dtor', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_4c399812e9fc20f5b8d940230974eff5/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_4c399812e9fc20f5b8d940230974eff5/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-Wnon-virtual-dtor', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_90523304ec12a4372c7a8dcacda8e783/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_90523304ec12a4372c7a8dcacda8e783/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_4c399812e9fc20f5b8d940230974eff5/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_90523304ec12a4372c7a8dcacda8e783/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 ==>
 
 int main(int argc, char **argv) {
@@ -913,12 +913,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_7f21e55443d86ce0ddd0029168d3e4e9/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_4f1cf0f070baacf4a9c14a79a4a718f1/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-Wno-unused-parameter', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_7f21e55443d86ce0ddd0029168d3e4e9/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_7f21e55443d86ce0ddd0029168d3e4e9/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-Wno-unused-parameter', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_4f1cf0f070baacf4a9c14a79a4a718f1/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_4f1cf0f070baacf4a9c14a79a4a718f1/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_7f21e55443d86ce0ddd0029168d3e4e9/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_4f1cf0f070baacf4a9c14a79a4a718f1/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 ==>
 
 int main(int argc, char **argv) {
@@ -927,12 +927,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_cd3c7f43d837d47ed4ce8ab5f9c1f91f/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_d44942f52f4e210760635155a798f2b6/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-fdiagnostics-color', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_cd3c7f43d837d47ed4ce8ab5f9c1f91f/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_cd3c7f43d837d47ed4ce8ab5f9c1f91f/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-fdiagnostics-color', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_d44942f52f4e210760635155a798f2b6/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_d44942f52f4e210760635155a798f2b6/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_cd3c7f43d837d47ed4ce8ab5f9c1f91f/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_d44942f52f4e210760635155a798f2b6/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 -O2 -g -pedantic -Wall -Wextra -Wnon-virtual-dtor -Wno-unused-parameter -fdiagnostics-color
 ------------------------------------------
 Checking supported LINKFLAGS
@@ -944,10 +944,10 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_09ca30ee5abe6e7f5fb3ea6a84377b9b/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_0bfb6d2f308c3e00833075c97229b5c6/test.cpp[0m
 
-['/usr/bin/g++', '-O2', '-g', '-pedantic', '-Wall', '-Wextra', '-Wnon-virtual-dtor', '-Wno-unused-parameter', '-fdiagnostics-color', '-std=c++14', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_09ca30ee5abe6e7f5fb3ea6a84377b9b/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_09ca30ee5abe6e7f5fb3ea6a84377b9b/testbuild/testprog[0m
+['/usr/bin/g++', '-O2', '-g', '-pedantic', '-Wall', '-Wextra', '-Wnon-virtual-dtor', '-Wno-unused-parameter', '-fdiagnostics-color', '-std=c++14', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_0bfb6d2f308c3e00833075c97229b5c6/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_0bfb6d2f308c3e00833075c97229b5c6/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', '-Werror', '-Wl,-O1', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_09ca30ee5abe6e7f5fb3ea6a84377b9b/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', '-Werror', '-Wl,-O1', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_0bfb6d2f308c3e00833075c97229b5c6/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 -Wl,-O1
