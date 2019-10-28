@@ -1,3 +1,11 @@
+Available simulations
+=====================
+
+ddos-scenario-1755
+---------------
+
+./waf --run=ddos-scenario-1755 NS_LOG=DetectionApp >& results/output
+
 Prerequisites
 =============
 
@@ -103,10 +111,4 @@ or
 
     PKG_LIBRARY_PATH=/usr/local/lib NS_VIS_ASSIGN=1 ./waf --run <scenario_name> --vis
 
-Available simulations
-=====================
 
-<Scenario Name>
----------------
-
-Description

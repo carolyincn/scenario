@@ -6,6 +6,8 @@
 #include "ns3/ndnSIM/apps/ndn-app.hpp"
 #include "ns3/string.h"
 #include "ns3/ptr.h"
+// #include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -25,13 +27,7 @@ public:
   virtual void
   StopApplication();
 
-  struct Info {
-    string prefix;
-    mutable int num;
-    bool operator < (const Info &a) const{
-      return a.prefix < prefix;
-    }
-  };
+  
 
   // // (overridden from ndn::App) Callback that will be called when Interest arrives
   // virtual void
@@ -45,8 +41,22 @@ private:
   void
   GetPit();
 
-  void
-  Detect();
+  void 
+  CalcGini();
+
+  struct Info {
+    string prefix;
+    mutable int num;
+    bool operator < (const Info &a) const{
+      return a.prefix < prefix;
+    }
+  };
+
+  set<Info> prefix;
+  int size = 0;
+  int count = 0;
+
+  ofstream mycout;
 
   
 

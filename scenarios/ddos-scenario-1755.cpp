@@ -22,7 +22,7 @@
 #include "ns3/net-device.h"
 #include "ns3/rng-seed-manager.h"
 #include "ns3/random-variable-stream.h"
-
+#include <fstream>
 using namespace std;
 namespace ns3 {
 // ofstream outfile;
@@ -95,11 +95,11 @@ main(int argc, char* argv[])
   set< Ptr<Node> > evils;
   set< Ptr<Node> > angels;
 
-  int badCount = 20;
+  int badCount = 30;
   int prodCount = 10;
   while (evils.size () < badCount){
     Ptr<UniformRandomVariable> rand = CreateObject<UniformRandomVariable>();
-    Ptr<Node> node = leaves.Get (rand->GetInteger(0, leaves.GetN ()));
+    Ptr<Node> node = leaves.Get (rand->GetInteger(0, leafnum - 1));
 
     if (evils.find (node) != evils.end ())
       continue;
@@ -120,7 +120,9 @@ main(int argc, char* argv[])
   while (producers.size () < prodCount){
     Ptr<Node> node = 0;
     Ptr<UniformRandomVariable> rand = CreateObject<UniformRandomVariable>();
-    node = bb.Get (rand->GetInteger(0, bb.GetN ()));
+    node = bb.Get (rand->GetInteger(0, bbnum - 1));
+    if (producers.find (node) != producers.end ())
+      continue;
     producers.insert (node);
     string name = Names::FindName(node);
     Names::Rename (name, "prod-" + name);
@@ -188,7 +190,10 @@ main(int argc, char* argv[])
   detectionApp.Install(gw); // last node 
 
   Simulator::Stop(Seconds(20.0));
-  ndn::L3RateTracer::InstallAll("rate-trace.txt", Seconds(1.0));
+  ndn::L3RateTracer::InstallAll("results/rate-trace.txt", Seconds(1.0));
+  ofstream mycout("results/gini.txt", ios::out);
+  mycout << "Time Node gini" << endl;
+  mycout.close();
   // Simulator::Schedule (Seconds (1.0), PrintTime, Seconds (0.1), r1);
 
   Simulator::Run();
