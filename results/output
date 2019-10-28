@@ -1,0 +1,1669 @@
+Waf: Entering directory `/home/yin/Desktop/ndnSIM/scenario/build'
+[1/7] Compiling extensions/detection.cpp
+[2/7] Compiling scenarios/ddos-scenario-1755.cpp
+In file included from /usr/local/include/ns3-dev/ns3/ndnSIM/model/ndn-common.hpp:23:0,
+                 from /usr/local/include/ns3-dev/ns3/ndnSIM/apps/ndn-app.hpp:23,
+                 from ../extensions/detection.hpp:6,
+                 from ../extensions/detection.cpp:3:
+/usr/local/include/ns3-dev/ns3/nstime.h:1077:33: warning: extra ‘;’ [-Wpedantic]
+ ATTRIBUTE_ACCESSOR_DEFINE (Time);
+                                 ^
+In file included from /usr/local/include/ns3-dev/ns3/trace-source-accessor.h:24:0,
+                 from /usr/local/include/ns3-dev/ns3/type-id.h:25,
+                 from /usr/local/include/ns3-dev/ns3/object-base.h:23,
+                 from /usr/local/include/ns3-dev/ns3/object.h:29,
+                 from /usr/local/include/ns3-dev/ns3/object-factory.h:24,
+                 from /usr/local/include/ns3-dev/ns3/simulator.h:29,
+                 from /usr/local/include/ns3-dev/ns3/ndnSIM/model/ndn-common.hpp:24,
+                 from /usr/local/include/ns3-dev/ns3/ndnSIM/apps/ndn-app.hpp:23,
+                 from ../extensions/detection.hpp:6,
+                 from ../extensions/detection.cpp:3:
+/usr/local/include/ns3-dev/ns3/callback.h:1922:37: warning: extra ‘;’ [-Wpedantic]
+ ATTRIBUTE_ACCESSOR_DEFINE (Callback);
+                                     ^
+In file included from /usr/local/include/ns3-dev/ns3/nstime.h:25:0,
+                 from /usr/local/include/ns3-dev/ns3/ndnSIM/model/ndn-common.hpp:23,
+                 from /usr/local/include/ns3-dev/ns3/ndnSIM/apps/ndn-app.hpp:23,
+                 from ../extensions/detection.hpp:6,
+                 from ../extensions/detection.cpp:3:
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/type-id.h:608:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (TypeId);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/object-factory.h:185:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (ObjectFactory);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/ndnSIM/model/ndn-common.hpp:49:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER(Name);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/address.h:278:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Address);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/ipv4-address.h:329:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Ipv4Address);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/ipv4-address.h:330:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Ipv4Mask);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/ipv6-address.h:550:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Ipv6Address);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/ipv6-address.h:551:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Ipv6Prefix);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/mac48-address.h:201:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Mac48Address);
+ ^
+In file included from ../extensions/detection.hpp:7:0,
+                 from ../extensions/detection.cpp:3:
+/usr/local/include/ns3-dev/ns3/string.h:42:35: warning: extra ‘;’ [-Wpedantic]
+ ATTRIBUTE_ACCESSOR_DEFINE (String);
+                                   ^
+In file included from /usr/local/include/ns3-dev/ns3/ndnSIM/helper/ndn-fib-helper.hpp:27:0,
+                 from /usr/local/include/ns3-dev/ns3/ndnSIM/helper/ndn-stack-helper.hpp:30,
+                 from ../extensions/detection.cpp:10:
+/usr/local/include/ns3-dev/ns3/pointer.h:220:36: warning: extra ‘;’ [-Wpedantic]
+ ATTRIBUTE_ACCESSOR_DEFINE (Pointer);
+                                    ^
+../extensions/detection.cpp: In member function ‘void ns3::ndn::DetectionApp::GetPit()’:
+../extensions/detection.cpp:65:23: warning: missing initializer for member ‘ns3::ndn::DetectionApp::Info::num’ [-Wmissing-field-initializers]
+     Info t = {interest};
+                       ^
+
+[5/7] Linking build/ndn-ddos-scenario
+[6/7] Linking build/ndn-simple
+In file included from /usr/local/include/ns3-dev/ns3/core-module.h:16:0,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/boolean.h:84:36: warning: extra ‘;’ [-Wpedantic]
+ ATTRIBUTE_ACCESSOR_DEFINE (Boolean);
+                                    ^
+In file included from /usr/local/include/ns3-dev/ns3/trace-source-accessor.h:24:0,
+                 from /usr/local/include/ns3-dev/ns3/type-id.h:25,
+                 from /usr/local/include/ns3-dev/ns3/object-base.h:23,
+                 from /usr/local/include/ns3-dev/ns3/object.h:29,
+                 from /usr/local/include/ns3-dev/ns3/scheduler.h:25,
+                 from /usr/local/include/ns3-dev/ns3/calendar-scheduler.h:24,
+                 from /usr/local/include/ns3-dev/ns3/core-module.h:19,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/callback.h:1922:37: warning: extra ‘;’ [-Wpedantic]
+ ATTRIBUTE_ACCESSOR_DEFINE (Callback);
+                                     ^
+In file included from /usr/local/include/ns3-dev/ns3/core-module.h:14:0,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/type-id.h:608:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (TypeId);
+ ^
+In file included from /usr/local/include/ns3-dev/ns3/simulator-impl.h:26:0,
+                 from /usr/local/include/ns3-dev/ns3/default-simulator-impl.h:24,
+                 from /usr/local/include/ns3-dev/ns3/core-module.h:24,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/nstime.h:1077:33: warning: extra ‘;’ [-Wpedantic]
+ ATTRIBUTE_ACCESSOR_DEFINE (Time);
+                                 ^
+In file included from /usr/local/include/ns3-dev/ns3/core-module.h:14:0,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/object-factory.h:185:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (ObjectFactory);
+ ^
+In file included from /usr/local/include/ns3-dev/ns3/core-module.h:27:0,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/double.h:42:35: warning: extra ‘;’ [-Wpedantic]
+ ATTRIBUTE_ACCESSOR_DEFINE (Double);
+                                   ^
+In file included from /usr/local/include/ns3-dev/ns3/core-module.h:45:0,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/integer.h:45:36: warning: extra ‘;’ [-Wpedantic]
+ ATTRIBUTE_ACCESSOR_DEFINE (Integer);
+                                    ^
+In file included from /usr/local/include/ns3-dev/ns3/core-module.h:62:0,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/pointer.h:220:36: warning: extra ‘;’ [-Wpedantic]
+ ATTRIBUTE_ACCESSOR_DEFINE (Pointer);
+                                    ^
+In file included from /usr/local/include/ns3-dev/ns3/core-module.h:76:0,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/string.h:42:35: warning: extra ‘;’ [-Wpedantic]
+ ATTRIBUTE_ACCESSOR_DEFINE (String);
+                                   ^
+In file included from /usr/local/include/ns3-dev/ns3/traced-value.h:25:0,
+                 from /usr/local/include/ns3-dev/ns3/core-module.h:88,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/uinteger.h:45:37: warning: extra ‘;’ [-Wpedantic]
+ ATTRIBUTE_ACCESSOR_DEFINE (Uinteger);
+                                     ^
+In file included from /usr/local/include/ns3-dev/ns3/core-module.h:14:0,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/vector.h:210:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Vector3D);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/vector.h:211:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Vector2D);
+ ^
+In file included from /usr/local/include/ns3-dev/ns3/core-module.h:96:0,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/vector.h:247:35: warning: extra ‘;’ [-Wpedantic]
+ ATTRIBUTE_ACCESSOR_DEFINE (Vector);
+                                   ^
+In file included from /usr/local/include/ns3-dev/ns3/core-module.h:14:0,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/address.h:278:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Address);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/ipv4-address.h:329:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Ipv4Address);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/ipv4-address.h:330:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Ipv4Mask);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/ipv6-address.h:550:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Ipv6Address);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/ipv6-address.h:551:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Ipv6Prefix);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/mac64-address.h:158:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Mac64Address);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/mac48-address.h:201:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Mac48Address);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/mac16-address.h:151:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (Mac16Address);
+ ^
+In file included from /usr/local/include/ns3-dev/ns3/network-module.h:10:0,
+                 from ../scenarios/ddos-scenario-1755.cpp:4:
+/usr/local/include/ns3-dev/ns3/address-utils.h:125:2: warning: extra ‘;’ [-Wpedantic]
+ };
+  ^
+/usr/local/include/ns3-dev/ns3/address-utils.h:127:2: warning: extra ‘;’ [-Wpedantic]
+ };
+  ^
+In file included from /usr/local/include/ns3-dev/ns3/core-module.h:14:0,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/data-rate.h:242:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (DataRate);
+ ^
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/queue-size.h:221:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER (QueueSize);
+ ^
+In file included from /usr/local/include/ns3-dev/ns3/packet-data-calculators.h:26:0,
+                 from /usr/local/include/ns3-dev/ns3/network-module.h:51,
+                 from ../scenarios/ddos-scenario-1755.cpp:4:
+/usr/local/include/ns3-dev/ns3/data-calculator.h:191:2: warning: extra ‘;’ [-Wpedantic]
+ };
+  ^
+In file included from /usr/local/include/ns3-dev/ns3/basic-data-calculators.h:25:0,
+                 from /usr/local/include/ns3-dev/ns3/packet-data-calculators.h:27,
+                 from /usr/local/include/ns3-dev/ns3/network-module.h:51,
+                 from ../scenarios/ddos-scenario-1755.cpp:4:
+/usr/local/include/ns3-dev/ns3/data-output-interface.h:151:2: warning: extra ‘;’ [-Wpedantic]
+ };
+  ^
+In file included from /usr/local/include/ns3-dev/ns3/packet-data-calculators.h:27:0,
+                 from /usr/local/include/ns3-dev/ns3/network-module.h:51,
+                 from ../scenarios/ddos-scenario-1755.cpp:4:
+/usr/local/include/ns3-dev/ns3/basic-data-calculators.h:381:2: warning: extra ‘;’ [-Wpedantic]
+ };
+  ^
+In file included from /usr/local/include/ns3-dev/ns3/network-module.h:51:0,
+                 from ../scenarios/ddos-scenario-1755.cpp:4:
+/usr/local/include/ns3-dev/ns3/packet-data-calculators.h:119:2: warning: extra ‘;’ [-Wpedantic]
+ };
+  ^
+In file included from /usr/local/include/ns3-dev/ns3/core-module.h:14:0,
+                 from ../scenarios/ddos-scenario-1755.cpp:3:
+/usr/local/include/ns3-dev/ns3/attribute-helper.h:386:35: warning: extra ‘;’ [-Wpedantic]
+   ATTRIBUTE_ACCESSOR_DEFINE (type);                                     \
+                                   ^
+/usr/local/include/ns3-dev/ns3/ndnSIM/model/ndn-common.hpp:49:1: note: in expansion of macro ‘ATTRIBUTE_HELPER_HEADER’
+ ATTRIBUTE_HELPER_HEADER(Name);
+ ^
+In file included from /usr/local/include/ns3-dev/ns3/ndnSIM/utils/topology/annotated-topology-reader.hpp:25:0,
+                 from /usr/local/include/ns3-dev/ns3/ndn-all.hpp:30,
+                 from /usr/local/include/ns3-dev/ns3/ndnSIM-module.h:10,
+                 from ../scenarios/ddos-scenario-1755.cpp:5:
+/usr/local/include/ns3-dev/ns3/topology-reader.h:246:2: warning: extra ‘;’ [-Wpedantic]
+ };
+  ^
+../scenarios/ddos-scenario-1755.cpp: In function ‘int ns3::main(int, char**)’:
+../scenarios/ddos-scenario-1755.cpp:100:24: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   while (evils.size () < badCount){
+                        ^
+../scenarios/ddos-scenario-1755.cpp:120:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   while (producers.size () < prodCount){
+                            ^
+
+[7/7] Linking build/ddos-scenario-1755
+Waf: Leaving directory `/home/yin/Desktop/ndnSIM/scenario/build'
+'build' finished successfully (7.009s)
+evil-leaf-124 evil-leaf-132 evil-leaf-154 evil-leaf-128 evil-leaf-176 evil-leaf-196 evil-leaf-264 evil-leaf-139 evil-leaf-144 evil-leaf-157 evil-leaf-155 evil-leaf-175 evil-leaf-198 evil-leaf-184 evil-leaf-286 evil-leaf-189 evil-leaf-193 evil-leaf-221 evil-leaf-314 evil-leaf-305 evil-leaf-253 evil-leaf-232 evil-leaf-230 evil-leaf-238 evil-leaf-278 evil-leaf-280 evil-leaf-258 evil-leaf-283 evil-leaf-300 evil-leaf-313 
+good-leaf-215 good-leaf-206 good-leaf-294 good-leaf-135 good-leaf-164 good-leaf-126 good-leaf-151 good-leaf-274 good-leaf-130 good-leaf-261 good-leaf-143 good-leaf-145 good-leaf-146 good-leaf-226 good-leaf-197 good-leaf-249 good-leaf-250 good-leaf-153 good-leaf-177 good-leaf-199 good-leaf-289 good-leaf-252 good-leaf-291 good-leaf-220 good-leaf-254 good-leaf-307 good-leaf-231 good-leaf-302 good-leaf-309 good-leaf-287 good-leaf-233 good-leaf-310 good-leaf-246 good-leaf-248 good-leaf-319 good-leaf-284 good-leaf-281 good-leaf-259 good-leaf-265 good-leaf-299 good-leaf-308 good-leaf-311 
+prod-bb-160 prod-bb-161 prod-bb-163 prod-bb-167 prod-bb-183 prod-bb-185 prod-bb-209 prod-bb-306 prod-bb-318 prod-gw-156 
+WARNING: Interest.CanBePrefix will be set to 0 in the near future. Please declare a preferred setting via Interest::setDefaultCanBePrefix.WARNING: Interest.CanBePrefix will be set to 0 in the near future. Please declare a preferred setting via Interest::setDefaultCanBePrefix.+0.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.649793
++0.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.793557
++0.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.466392
++0.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.649793
++0.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.466392
++0.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.466392
++0.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.484429
++0.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.466392
++0.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++0.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.647901
++1.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.792571
++1.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.466392
++1.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.642825
++1.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.444444
++1.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.473373
++1.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.5
++1.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.459184
++1.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++1.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.642361
++2.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0.165289
++2.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.790588
++2.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.459184
++2.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.648526
++2.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.459184
++2.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.451843
++2.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.5
++2.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.459184
++2.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++2.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.64876
++3.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0.165289
++3.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.790826
++3.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.459184
++3.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.642361
++3.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.459184
++3.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.459184
++3.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.498615
++3.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.473373
++3.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++3.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.64876
++4.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.790826
++4.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.459184
++4.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.64
++4.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.444444
++4.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.459184
++4.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.5
++4.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.459184
++4.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++4.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.645926
++5.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0.165289
++5.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.790035
++5.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.451843
++5.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.64876
++5.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.473373
++5.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.459184
++5.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.498615
++5.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.444444
++5.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++5.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.642361
++6.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.790733
++6.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.459184
++6.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.642825
++6.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.466392
++6.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.466392
++6.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.5
++6.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.444444
++6.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++6.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.646503
++7.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.790698
++7.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.459184
++7.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.641399
++7.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.451843
++7.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.451843
++7.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.493827
++7.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.473373
++7.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++7.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.642361
++8.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.790588
++8.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.444444
++8.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.648999
++8.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.48
++8.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.466392
++8.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.5
++8.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.459184
++8.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++8.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.642361
++9.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.790698
++9.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.459184
++9.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.642361
++9.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.459184
++9.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.466392
++9.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.5
++9.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.459184
++9.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++9.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.642133
++10.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0.381328
++10.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0.122922
++10.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0.122922
++10.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.768678
++10.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.334993
++10.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0.59523
++10.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0.403905
++10.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0.57625
++10.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0.791736
++10.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0.381328
++10.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0.692777
++10.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0.126004
++10.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0.381328
++10.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0.876066
++10.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.559434
++10.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0.72242
++10.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0.126004
++10.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.37126
++10.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0.880554
++10.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0.408163
++10.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0.592729
++10.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0.911967
++10.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0.59523
++10.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0.898407
++10.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.830433
++10.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0.750556
++10.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0.898504
++10.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0.875968
++10.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0.119987
++10.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0.122922
++10.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0.119987
++10.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0.797215
++10.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0.122922
++10.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0.122922
++10.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.347138
++10.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0.549204
++10.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0.491493
++10.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0.80868
++10.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0.381328
++10.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0.119987
++10.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0.122922
++10.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.355159
++10.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0.122922
++10.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0.117188
++10.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0.396514
++10.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0.422406
++10.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0.122922
++10.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++10.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0.117188
++11.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.60771
++11.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0.160049
++11.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0.0907029
++11.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0.0907029
++11.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.734694
++11.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.152778
++11.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0.498615
++11.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0.531276
++11.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0.399093
++11.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0.54389
++11.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0.793651
++11.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0.165289
++11.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0.689342
++11.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0.0907029
++11.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0.460784
++11.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0.875283
++11.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.512472
++11.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0.686823
++11.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0.0907029
++11.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.321995
++11.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0.879819
++11.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0.176855
++11.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0.585034
++11.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0.911565
++11.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0.531276
++11.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0.897959
++11.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.829932
++11.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0.748299
++11.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0.897959
++11.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0.875283
++11.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0.0907029
++11.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0.498615
++11.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0.0907029
++11.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0.0907029
++11.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0.803324
++11.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0.0907029
++11.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0.0907029
++11.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.321995
++11.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0.539683
++11.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0.228532
++11.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0.807256
++11.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0.168038
++11.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0.0907029
++11.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0.0907029
++11.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.321995
++11.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0.0907029
++11.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0.0907029
++11.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0.399093
++11.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0.170879
++11.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0.0907029
++11.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++11.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0.0907029
++12.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.6641
++12.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0.132653
++12.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0.0923744
++12.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0.0936689
++12.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.777228
++12.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.100221
++12.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0.5
++12.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0.530612
++12.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0.523753
++12.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0.481994
++12.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0.810821
++12.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0.0992297
++12.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0.690177
++12.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0.0936689
++12.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0.503135
++12.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0.886846
++12.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.582044
++12.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0.684807
++12.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0.0923744
++12.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.439497
++12.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0.883245
++12.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0.124444
++12.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0.586483
++12.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0.898058
++12.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0.530612
++12.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0.896404
++12.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.850504
++12.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0.732853
++12.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0.896912
++12.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0.88695
++12.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0.0923744
++12.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0.5
++12.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0.0923744
++12.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0.0923744
++12.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0.809827
++12.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0.0923744
++12.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0.0941084
++12.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.371017
++12.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0.540609
++12.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0.165289
++12.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0.803902
++12.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0.102788
++12.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0.0941084
++12.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0.0936689
++12.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.386464
++12.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0.0941084
++12.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0.0923744
++12.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0.398637
++12.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0.113224
++12.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0.0923744
++12.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++12.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0.0923744
++13.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.648526
++13.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0.111961
++13.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.75737
++13.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0.165289
++13.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0.479293
++13.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0.557823
++13.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0.430564
++13.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0.811791
++13.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0.689342
++13.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0.474331
++13.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0.888889
++13.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.594104
++13.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0.684807
++13.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.471655
++13.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0.884354
++13.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0.117875
++13.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0.585034
++13.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0.893424
++13.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0.479293
++13.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0.893424
++13.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.848073
++13.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0.730159
++13.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0.893424
++13.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0.888889
++13.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0.165289
++13.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0.802768
++13.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.380952
++13.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0.539683
++13.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0.157551
++13.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0.802721
++13.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.380952
++13.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0.399093
++13.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0.104938
++13.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0.0907029
++13.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++13.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0.0907029
++14.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.659532
++14.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0.0907029
++14.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0.0923744
++14.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0.146102
++14.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.777689
++14.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.0936689
++14.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0.447451
++14.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0.556907
++14.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0.376099
++14.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0.776585
++14.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0.0928019
++14.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0.680288
++14.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0.0941084
++14.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0.476954
++14.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0.88663
++14.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.52595
++14.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0.69585
++14.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0.0923744
++14.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.442308
++14.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0.884321
++14.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0.0932334
++14.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0.636418
++14.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0.880863
++14.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0.478755
++14.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0.87724
++14.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.841408
++14.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0.731832
++14.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0.875343
++14.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0.887162
++14.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0.0923744
++14.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0.0923744
++14.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0.0923744
++14.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0.79339
++14.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0.0923744
++14.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0.102987
++14.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.362057
++14.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0.540609
++14.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0.150497
++14.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0.808247
++14.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0.0945521
++14.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0.0932334
++14.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0.0936689
++14.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.325801
++14.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0.102987
++14.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0.0923744
++14.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0.449999
++14.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0.0982577
++14.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0.0923744
++14.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++14.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0.0923744
++15.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.648526
++15.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0.0915311
++15.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0.0907029
++15.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0.176871
++15.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.76644
++15.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.095
++15.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0.566987
++15.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0.548753
++15.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0.254694
++15.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0.761905
++15.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0.0963694
++15.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0.675737
++15.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0.0907029
++15.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0.456814
++15.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0.884354
++15.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.507937
++15.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0.690597
++15.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0.0907029
++15.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.430839
++15.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0.884354
++15.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0.0936689
++15.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0.648526
++15.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0.875283
++15.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0.595673
++15.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0.870748
++15.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.839002
++15.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0.725624
++15.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0.870748
++15.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0.884354
++15.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0.0907029
++15.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0.0907029
++15.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0.0907029
++15.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0.788927
++15.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0.0907029
++15.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0.0907029
++15.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.321995
++15.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0.539683
++15.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0.165289
++15.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0.807256
++15.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0.0987413
++15.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0.0907029
++15.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0.0907029
++15.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.253968
++15.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0.0907029
++15.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0.0907029
++15.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0.44898
++15.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0.0907029
++15.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0.0907029
++15.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++15.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0.0907029
++16.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.627458
++16.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0.106047
++16.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0.0907029
++16.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0.176871
++16.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.763537
++16.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.101746
++16.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0.550169
++16.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0.469128
++16.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0.253968
++16.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0.726632
++16.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0.108924
++16.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0.675737
++16.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0.0907029
++16.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0.300192
++16.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0.884354
++16.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.505025
++16.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0.689342
++16.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0.0907029
++16.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.35979
++16.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0.884354
++16.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0.0928019
++16.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0.627483
++16.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0.875283
++16.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0.522374
++16.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0.870748
++16.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.817564
++16.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0.725624
++16.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0.870748
++16.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0.884354
++16.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0.0907029
++16.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0.0907029
++16.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0.0907029
++16.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0.775155
++16.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0.0907029
++16.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0.0907029
++16.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.316843
++16.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0.539683
++16.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0.161328
++16.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0.807256
++16.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0.0959086
++16.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0.0907029
++16.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0.0907029
++16.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.253968
++16.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0.0907029
++16.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0.0907029
++16.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0.450997
++16.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0.0923744
++16.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0.0907029
++16.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++16.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.621315
++17.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0.100221
++17.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0.176871
++17.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.761905
++17.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0.525171
++17.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0.45805
++17.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0.253968
++17.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0.716553
++17.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0.0959086
++17.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0.675737
++17.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0.197645
++17.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0.884354
++17.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.507937
++17.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0.689342
++17.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.321995
++17.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0.884354
++17.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0.095
++17.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0.621315
++17.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0.875283
++17.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0.522902
++17.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0.870748
++17.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.811791
++17.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0.725624
++17.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0.870748
++17.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0.884354
++17.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0.771605
++17.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.321995
++17.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0.539683
++17.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0.103852
++17.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0.807256
++17.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0.0911151
++17.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.253968
++17.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0.45805
++17.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0.095
++17.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0.0907029
++17.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++17.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0.0907029
++18.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.603608
++18.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0.0911151
++18.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0.0923744
++18.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0.129161
++18.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.754299
++18.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.0932334
++18.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0.526077
++18.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0.466389
++18.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0.312213
++18.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0.737266
++18.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0.0907029
++18.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0.677385
++18.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0.0919508
++18.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0.265
++18.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0.876063
++18.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.5455
++18.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0.686449
++18.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0.0923744
++18.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.369639
++18.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0.885575
++18.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0.108337
++18.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0.622226
++18.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0.872278
++18.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0.526316
++18.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0.862522
++18.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.822283
++18.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0.747226
++18.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0.862522
++18.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0.876063
++18.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0.0923744
++18.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0.0923744
++18.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0.0923744
++18.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0.790409
++18.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0.0923744
++18.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0.0936689
++18.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.356601
++18.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0.541191
++18.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0.0907029
++18.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0.790649
++18.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0.0915311
++18.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0.0928019
++18.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0.0928019
++18.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.293854
++18.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0.0936689
++18.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0.0923744
++18.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0.457661
++18.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0.0963694
++18.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0.0923744
++18.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++18.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0.0923744
++19.900000000s 23 DetectionApp:GetPit(): [DEBUG] 0.585034
++19.900000000s 24 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 25 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 26 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 27 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 28 DetectionApp:GetPit(): [DEBUG] 0.739229
++19.900000000s 29 DetectionApp:GetPit(): [DEBUG] 0.0959086
++19.900000000s 30 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 31 DetectionApp:GetPit(): [DEBUG] 0.525193
++19.900000000s 32 DetectionApp:GetPit(): [DEBUG] 0.45805
++19.900000000s 33 DetectionApp:GetPit(): [DEBUG] 0.292892
++19.900000000s 34 DetectionApp:GetPit(): [DEBUG] 0.743764
++19.900000000s 35 DetectionApp:GetPit(): [DEBUG] 0.0982577
++19.900000000s 36 DetectionApp:GetPit(): [DEBUG] 0.675737
++19.900000000s 37 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 38 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 39 DetectionApp:GetPit(): [DEBUG] 0.259369
++19.900000000s 40 DetectionApp:GetPit(): [DEBUG] 0.870748
++19.900000000s 41 DetectionApp:GetPit(): [DEBUG] 0.557823
++19.900000000s 42 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 43 DetectionApp:GetPit(): [DEBUG] 0.691064
++19.900000000s 44 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 45 DetectionApp:GetPit(): [DEBUG] 0.380952
++19.900000000s 46 DetectionApp:GetPit(): [DEBUG] 0.884354
++19.900000000s 47 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 48 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 49 DetectionApp:GetPit(): [DEBUG] 0.0982577
++19.900000000s 50 DetectionApp:GetPit(): [DEBUG] 0.621315
++19.900000000s 51 DetectionApp:GetPit(): [DEBUG] 0.870748
++19.900000000s 52 DetectionApp:GetPit(): [DEBUG] 0.527398
++19.900000000s 53 DetectionApp:GetPit(): [DEBUG] 0.857143
++19.900000000s 54 DetectionApp:GetPit(): [DEBUG] 0.816327
++19.900000000s 55 DetectionApp:GetPit(): [DEBUG] 0.748299
++19.900000000s 56 DetectionApp:GetPit(): [DEBUG] 0.857143
++19.900000000s 57 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 58 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 59 DetectionApp:GetPit(): [DEBUG] 0.870748
++19.900000000s 60 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 61 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 62 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 63 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 64 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 65 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 66 DetectionApp:GetPit(): [DEBUG] 0.786704
++19.900000000s 67 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 68 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 69 DetectionApp:GetPit(): [DEBUG] 0.380952
++19.900000000s 70 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 71 DetectionApp:GetPit(): [DEBUG] 0.539683
++19.900000000s 72 DetectionApp:GetPit(): [DEBUG] 0.0928019
++19.900000000s 73 DetectionApp:GetPit(): [DEBUG] 0.78458
++19.900000000s 74 DetectionApp:GetPit(): [DEBUG] 0.095
++19.900000000s 75 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 76 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 77 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 78 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 79 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 80 DetectionApp:GetPit(): [DEBUG] 0.321995
++19.900000000s 81 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 82 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 83 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 84 DetectionApp:GetPit(): [DEBUG] 0.45805
++19.900000000s 85 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 86 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 87 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 88 DetectionApp:GetPit(): [DEBUG] 0.0907029
++19.900000000s 89 DetectionApp:GetPit(): [DEBUG] 0
++19.900000000s 90 DetectionApp:GetPit(): [DEBUG] 0.0907029
