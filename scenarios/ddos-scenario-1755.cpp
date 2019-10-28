@@ -33,6 +33,7 @@ main(int argc, char* argv[])
   // setting default parameters for PointToPoint links and channels
   Config::SetDefault("ns3::PointToPointNetDevice::DataRate", StringValue("1Mbps"));
   Config::SetDefault("ns3::PointToPointChannel::Delay", StringValue("10ms"));
+  Config::SetDefault("ns3::QueueBase::MaxPackets", StringValue("20"));
   Config::SetDefault("ns3::QueueBase::MaxSize", StringValue("20p"));
 
 
@@ -47,6 +48,7 @@ main(int argc, char* argv[])
   // Creating nodes
 
   AnnotatedTopologyReader topologyReader("", 1);
+  topologyReader.SetFileName("/home/yin/Desktop/ndn/ndnSIM/scenario/scenarios/topo-1755.txt");
   topologyReader.SetFileName("/home/yin/Desktop/ndnSIM/scenario/scenarios/topo-1755.txt");
   topologyReader.Read();
   
@@ -93,7 +95,7 @@ main(int argc, char* argv[])
   set< Ptr<Node> > evils;
   set< Ptr<Node> > angels;
 
-  int badCount = 10;
+  int badCount = 20;
   int prodCount = 10;
   while (evils.size () < badCount){
     Ptr<UniformRandomVariable> rand = CreateObject<UniformRandomVariable>();
@@ -111,17 +113,17 @@ main(int argc, char* argv[])
     if (evils.find(node) == evils.end()){
       angels.insert(node);
       string name = Names::FindName(node);
-      Names::Rename (name, "good-"+name);
+      Names::Rename (name, "good-" + name);
     }
   });
 
   while (producers.size () < prodCount){
     Ptr<Node> node = 0;
     Ptr<UniformRandomVariable> rand = CreateObject<UniformRandomVariable>();
-    node = gw.Get (rand->GetInteger(0, leaves.GetN ()));
+    node = bb.Get (rand->GetInteger(0, bb.GetN ()));
     producers.insert (node);
     string name = Names::FindName(node);
-    Names::Rename (name, "prod-"+name);
+    Names::Rename (name, "prod-" + name);
   }
 
 

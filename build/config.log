@@ -1,16 +1,16 @@
-# project template (0.1) configured on Fri Oct 25 17:03:01 2019 by
+# project template (0.1) configured on Sat Oct 26 16:16:03 2019 by
 # waf 2.0.14 (abi 20, python 2070cf0 on linux2)
 # using ./waf configure
 #
 ----------------------------------------
 Setting top to
-/home/yin/Desktop/ndnSIM/scenario
+/home/yin/Desktop/ndn/ndnSIM/scenario
 ----------------------------------------
 Setting out to
-/home/yin/Desktop/ndnSIM/scenario/build
+/home/yin/Desktop/ndn/ndnSIM/scenario/build
 ----------------------------------------
 Checking for 'gcc' (C compiler)
-find program=['gcc', 'cc'] paths=['/home/yin/bin', '/home/yin/.local/bin', '/usr/local/hadoop/hadoop-2.9.0/bin', '{HADOOP_HOME}/sbin', '/usr/lib/spark/spark/bin', '/usr/lib/scala/scala-2.11.12/bin', '/usr/lib/jdk/jdk1.7.0_79/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='CC' -> ['/usr/bin/gcc']
+find program=['gcc', 'cc'] paths=['/home/yin/bin', '/home/yin/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='CC' -> ['/usr/bin/gcc']
 ['/usr/bin/gcc', '-dM', '-E', '-']
 out: #define __SSP_STRONG__ 3
 #define __DBL_MIN_EXP__ (-1021)
@@ -261,11 +261,11 @@ out: #define __SSP_STRONG__ 3
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_RELEASE 3
 
-find program=['ar'] paths=['/home/yin/bin', '/home/yin/.local/bin', '/usr/local/hadoop/hadoop-2.9.0/bin', '{HADOOP_HOME}/sbin', '/usr/lib/spark/spark/bin', '/usr/lib/scala/scala-2.11.12/bin', '/usr/lib/jdk/jdk1.7.0_79/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='AR' -> ['/usr/bin/ar']
+find program=['ar'] paths=['/home/yin/bin', '/home/yin/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='AR' -> ['/usr/bin/ar']
 /usr/bin/gcc
 ----------------------------------------
 Checking for 'g++' (C++ compiler)
-find program=['g++', 'c++'] paths=['/home/yin/bin', '/home/yin/.local/bin', '/usr/local/hadoop/hadoop-2.9.0/bin', '{HADOOP_HOME}/sbin', '/usr/lib/spark/spark/bin', '/usr/lib/scala/scala-2.11.12/bin', '/usr/lib/jdk/jdk1.7.0_79/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='CXX' -> ['/usr/bin/g++']
+find program=['g++', 'c++'] paths=['/home/yin/bin', '/home/yin/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='CXX' -> ['/usr/bin/g++']
 ['/usr/bin/g++', '-dM', '-E', '-']
 out: #define __SSP_STRONG__ 3
 #define __DBL_MIN_EXP__ (-1021)
@@ -516,7 +516,7 @@ out: #define __SSP_STRONG__ 3
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_RELEASE 3
 
-find program=['ar'] paths=['/home/yin/bin', '/home/yin/.local/bin', '/usr/local/hadoop/hadoop-2.9.0/bin', '{HADOOP_HOME}/sbin', '/usr/lib/spark/spark/bin', '/usr/lib/scala/scala-2.11.12/bin', '/usr/lib/jdk/jdk1.7.0_79/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='AR' -> ['/usr/bin/ar']
+find program=['ar'] paths=['/home/yin/bin', '/home/yin/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='AR' -> ['/usr/bin/ar']
 /usr/bin/g++
 ----------------------------------------
 Checking C++ compiler version
@@ -531,12 +531,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_b2acf3a9b50563f24be335e6dc690c00/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_168b60da349cf7929ac7816a13f6ef53/test.cpp[0m
 
-['/usr/bin/g++', '-Werror', '-std=c++14', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_b2acf3a9b50563f24be335e6dc690c00/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_b2acf3a9b50563f24be335e6dc690c00/testbuild/testprog[0m
+['/usr/bin/g++', '-Werror', '-std=c++14', '../test.cpp', '-c', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_168b60da349cf7929ac7816a13f6ef53/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_168b60da349cf7929ac7816a13f6ef53/testbuild/testprog[0m
 
-['/usr/bin/g++', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_b2acf3a9b50563f24be335e6dc690c00/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', 'test.cpp.1.o', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_168b60da349cf7929ac7816a13f6ef53/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 -std=c++14
 ----------------------------------------
 Checking supported LINKFLAGS
@@ -548,17 +548,17 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_ee68a34c282fc57f93e81b8883c903f8/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_fe5722caa660f035f8281ac4707f1d16/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_ee68a34c282fc57f93e81b8883c903f8/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_ee68a34c282fc57f93e81b8883c903f8/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '../test.cpp', '-c', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_fe5722caa660f035f8281ac4707f1d16/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_fe5722caa660f035f8281ac4707f1d16/testbuild/testprog[0m
 
-['/usr/bin/g++', '-Werror', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_ee68a34c282fc57f93e81b8883c903f8/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+['/usr/bin/g++', '-Werror', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_fe5722caa660f035f8281ac4707f1d16/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
 -fuse-ld=gold
 ----------------------------------------
 Checking for program 'pkg-config'
 /usr/bin/pkg-config
-find program=['pkg-config'] paths=['/home/yin/bin', '/home/yin/.local/bin', '/usr/local/hadoop/hadoop-2.9.0/bin', '{HADOOP_HOME}/sbin', '/usr/lib/spark/spark/bin', '/usr/lib/scala/scala-2.11.12/bin', '/usr/lib/jdk/jdk1.7.0_79/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='PKGCONFIG' -> ['/usr/bin/pkg-config']
+find program=['pkg-config'] paths=['/home/yin/bin', '/home/yin/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='PKGCONFIG' -> ['/usr/bin/pkg-config']
 ------------------------------------------
 Checking for pkg-config version >= '0.0.0'
 ['/usr/bin/pkg-config', '--atleast-pkgconfig-version=0.0.0']
@@ -572,31 +572,31 @@ yes
 ------------------------------------------
 Checking for ns3-network
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-network-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-point-to-point
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-point-to-point-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-applications
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-applications-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-applications-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -pthread -DHAVE_GTK2=1 -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-applications-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-mobility
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-mobility-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-ndnSIM
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-ndnSIM-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -I/home/yin/Desktop/ndnSIM/ns-3/build/ns3/ndnSIM/NFD -I/home/yin/Desktop/ndnSIM/ns-3/ns3/ndnSIM/NFD -I/home/yin/Desktop/ndnSIM/ns-3/build/src/ndnSIM/NFD/core -I/home/yin/Desktop/ndnSIM/ns-3/src/ndnSIM/NFD/core -I/home/yin/Desktop/ndnSIM/ns-3/build/src/ndnSIM/NFD/daemon -I/home/yin/Desktop/ndnSIM/ns-3/src/ndnSIM/NFD/daemon -I/home/yin/Desktop/ndnSIM/ns-3/build/src/ndnSIM/NFD/rib -I/home/yin/Desktop/ndnSIM/ns-3/src/ndnSIM/NFD/rib -I/home/yin/Desktop/ndnSIM/ns-3/build/ns3/ndnSIM -I/home/yin/Desktop/ndnSIM/ns-3/ns3/ndnSIM -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-ndnSIM-optimized -lboost_graph -lboost_thread -lboost_unit_test_framework -lboost_system -lboost_random -lboost_date_time -lboost_iostreams -lboost_regex -lboost_program_options -lboost_chrono -lboost_filesystem -lboost_system -lboost_filesystem -lsqlite3 -lrt -lpthread -lssl -lcrypto -Wl,-Bdynamic -lns3-dev-topology-read-optimized -Wl,-Bdynamic -lns3-dev-visualizer-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -I/home/yin/Desktop/ndn/ndnSIM/ns-3/build/ns3/ndnSIM/NFD -I/home/yin/Desktop/ndn/ndnSIM/ns-3/ns3/ndnSIM/NFD -I/home/yin/Desktop/ndn/ndnSIM/ns-3/build/src/ndnSIM/NFD/core -I/home/yin/Desktop/ndn/ndnSIM/ns-3/src/ndnSIM/NFD/core -I/home/yin/Desktop/ndn/ndnSIM/ns-3/build/src/ndnSIM/NFD/daemon -I/home/yin/Desktop/ndn/ndnSIM/ns-3/src/ndnSIM/NFD/daemon -I/home/yin/Desktop/ndn/ndnSIM/ns-3/build/src/ndnSIM/NFD/rib -I/home/yin/Desktop/ndn/ndnSIM/ns-3/src/ndnSIM/NFD/rib -I/home/yin/Desktop/ndn/ndnSIM/ns-3/build/ns3/ndnSIM -I/home/yin/Desktop/ndn/ndnSIM/ns-3/ns3/ndnSIM -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-ndnSIM-optimized -lboost_graph -lboost_thread -lboost_unit_test_framework -lboost_system -lboost_random -lboost_date_time -lboost_iostreams -lboost_regex -lboost_program_options -lboost_chrono -lboost_filesystem -lboost_system -lboost_signals -lboost_filesystem -lsqlite3 -lrt -lpthread -lssl -lcrypto -Wl,-Bdynamic -lns3-dev-topology-read-optimized -Wl,-Bdynamic -lns3-dev-visualizer-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
@@ -608,13 +608,13 @@ yes
 ------------------------------------------
 Checking for ns3-aodv
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-aodv-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-aodv-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-aodv-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-bridge
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-bridge-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
@@ -626,11 +626,11 @@ to the PKG_CONFIG_PATH environment variable
 No package 'libns3-dev-brite-optimized' found
 
 not found
-from /home/yin/Desktop/ndnSIM/scenario: The configuration failed
+from /home/yin/Desktop/ndn/ndnSIM/scenario: The configuration failed
 ------------------------------------------
 Checking for ns3-buildings
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-buildings-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-buildings-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -pthread -DHAVE_GTK2=1 -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-buildings-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
@@ -642,35 +642,35 @@ to the PKG_CONFIG_PATH environment variable
 No package 'libns3-dev-click-optimized' found
 
 not found
-from /home/yin/Desktop/ndnSIM/scenario: The configuration failed
+from /home/yin/Desktop/ndn/ndnSIM/scenario: The configuration failed
 ------------------------------------------
 Checking for ns3-config-store
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-config-store-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-config-store-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -pthread -DHAVE_GTK2=1 -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-config-store-optimized -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-csma
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-csma-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-csma-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-csma-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-csma-layout
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-csma-layout-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-csma-layout-optimized -Wl,-Bdynamic -lns3-dev-csma-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-csma-layout-optimized -Wl,-Bdynamic -lns3-dev-csma-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-dsdv
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-dsdv-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-dsdv-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-dsdv-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-dsr
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-dsr-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-dsr-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-dsr-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
@@ -682,65 +682,65 @@ to the PKG_CONFIG_PATH environment variable
 No package 'libns3-dev-emu-optimized' found
 
 not found
-from /home/yin/Desktop/ndnSIM/scenario: The configuration failed
+from /home/yin/Desktop/ndn/ndnSIM/scenario: The configuration failed
 ------------------------------------------
 Checking for ns3-energy
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-energy-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-fd-net-device
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-fd-net-device-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-fd-net-device-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-fd-net-device-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-flow-monitor
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-flow-monitor-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-flow-monitor-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -pthread -DHAVE_GTK2=1 -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-flow-monitor-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-internet
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-internet-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-lte
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-lte-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-lte-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-buildings-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-virtual-net-device-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-applications-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-csma-optimized -Wl,-Bdynamic -lns3-dev-fd-net-device-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -pthread -DHAVE_GTK2=1 -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-lte-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-buildings-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-virtual-net-device-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-applications-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-csma-optimized -Wl,-Bdynamic -lns3-dev-fd-net-device-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-mesh
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-mesh-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-mesh-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-mesh-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-mpi
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-mpi-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-netanim
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-netanim-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-netanim-optimized -Wl,-Bdynamic -lns3-dev-wimax-optimized -Wl,-Bdynamic -lns3-dev-lte-optimized -Wl,-Bdynamic -lns3-dev-buildings-optimized -Wl,-Bdynamic -lns3-dev-virtual-net-device-optimized -Wl,-Bdynamic -lns3-dev-applications-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -Wl,-Bdynamic -lns3-dev-csma-optimized -Wl,-Bdynamic -lns3-dev-fd-net-device-optimized -Wl,-Bdynamic -lns3-dev-uan-optimized -Wl,-Bdynamic -lns3-dev-lr-wpan-optimized -Wl,-Bdynamic -lns3-dev-wave-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-layout-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -pthread -DHAVE_GTK2=1 -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-netanim-optimized -Wl,-Bdynamic -lns3-dev-wimax-optimized -Wl,-Bdynamic -lns3-dev-lte-optimized -Wl,-Bdynamic -lns3-dev-buildings-optimized -Wl,-Bdynamic -lns3-dev-virtual-net-device-optimized -Wl,-Bdynamic -lns3-dev-applications-optimized -Wl,-Bdynamic -lns3-dev-config-store-optimized -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -Wl,-Bdynamic -lns3-dev-csma-optimized -Wl,-Bdynamic -lns3-dev-fd-net-device-optimized -Wl,-Bdynamic -lns3-dev-uan-optimized -Wl,-Bdynamic -lns3-dev-lr-wpan-optimized -Wl,-Bdynamic -lns3-dev-wave-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-layout-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-nix-vector-routing
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-nix-vector-routing-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-nix-vector-routing-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-nix-vector-routing-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-olsr
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-olsr-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-olsr-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-olsr-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
@@ -752,71 +752,71 @@ to the PKG_CONFIG_PATH environment variable
 No package 'libns3-dev-openflow-optimized' found
 
 not found
-from /home/yin/Desktop/ndnSIM/scenario: The configuration failed
+from /home/yin/Desktop/ndn/ndnSIM/scenario: The configuration failed
 ------------------------------------------
 Checking for ns3-point-to-point-layout
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-point-to-point-layout-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-point-to-point-layout-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-point-to-point-layout-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-propagation
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-propagation-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-spectrum
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-spectrum-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-stats
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-stats-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-tap-bridge
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-tap-bridge-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-tap-bridge-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-tap-bridge-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-topology-read
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-topology-read-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-topology-read-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-topology-read-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-uan
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-uan-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-uan-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-uan-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-virtual-net-device
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-virtual-net-device-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-virtual-net-device-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-virtual-net-device-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-visualizer
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-visualizer-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-visualizer-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-visualizer-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-point-to-point-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-wifi
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-wifi-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-wifi-optimized -Wl,-Bdynamic -lns3-dev-energy-optimized -Wl,-Bdynamic -lns3-dev-spectrum-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-antenna-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
 Checking for ns3-wimax
 ['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-wimax-optimized']
-out: -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-wimax-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
+out: -DHAVE_SQLITE3=1 -pthread -I/usr/local/include/ns3-dev -L/usr/local/lib -Wl,-Bdynamic -lns3-dev-wimax-optimized -Wl,-Bdynamic -lns3-dev-internet-optimized -Wl,-Bdynamic -lns3-dev-bridge-optimized -Wl,-Bdynamic -lns3-dev-mpi-optimized -Wl,-Bdynamic -lns3-dev-traffic-control-optimized -Wl,-Bdynamic -lns3-dev-propagation-optimized -Wl,-Bdynamic -lns3-dev-mobility-optimized -Wl,-Bdynamic -lns3-dev-network-optimized -Wl,-Bdynamic -lns3-dev-stats-optimized -lsqlite3 -Wl,-Bdynamic -lns3-dev-core-optimized -lrt -lpthread
 
 yes
 ------------------------------------------
@@ -829,12 +829,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_ed88e61ec52622a6da35f23a08db254b/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_30e98adb135a1dc13f211957a01d4bd9/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-O2', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_ed88e61ec52622a6da35f23a08db254b/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_ed88e61ec52622a6da35f23a08db254b/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-O2', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_30e98adb135a1dc13f211957a01d4bd9/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_30e98adb135a1dc13f211957a01d4bd9/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_ed88e61ec52622a6da35f23a08db254b/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_30e98adb135a1dc13f211957a01d4bd9/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 ==>
 
 int main(int argc, char **argv) {
@@ -843,12 +843,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_73b365f4ac79189c676675e5834048a0/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_74694fb188d3d3f2f97baee4537a7c23/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-g', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_73b365f4ac79189c676675e5834048a0/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_73b365f4ac79189c676675e5834048a0/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-g', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_74694fb188d3d3f2f97baee4537a7c23/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_74694fb188d3d3f2f97baee4537a7c23/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_73b365f4ac79189c676675e5834048a0/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_74694fb188d3d3f2f97baee4537a7c23/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 ==>
 
 int main(int argc, char **argv) {
@@ -857,12 +857,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_913dcf2af8e0635e54a7d65eeea0c6b9/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_82b3615a9ebdc78ec1fa593493b0a0a9/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-pedantic', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_913dcf2af8e0635e54a7d65eeea0c6b9/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_913dcf2af8e0635e54a7d65eeea0c6b9/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-pedantic', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_82b3615a9ebdc78ec1fa593493b0a0a9/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_82b3615a9ebdc78ec1fa593493b0a0a9/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_913dcf2af8e0635e54a7d65eeea0c6b9/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_82b3615a9ebdc78ec1fa593493b0a0a9/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 ==>
 
 int main(int argc, char **argv) {
@@ -871,12 +871,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_92fc57636d60b2464780c9e48ef7884a/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_95d8ff05076b84a9e93c193573e9a9ae/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-Wall', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_92fc57636d60b2464780c9e48ef7884a/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_92fc57636d60b2464780c9e48ef7884a/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-Wall', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_95d8ff05076b84a9e93c193573e9a9ae/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_95d8ff05076b84a9e93c193573e9a9ae/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_92fc57636d60b2464780c9e48ef7884a/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_95d8ff05076b84a9e93c193573e9a9ae/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 ==>
 
 int main(int argc, char **argv) {
@@ -885,12 +885,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_23d6dae1aa9b4c8c574eed2223e49db3/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_10c4b202f8593be160f24fb3b5ecfa5d/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-Wextra', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_23d6dae1aa9b4c8c574eed2223e49db3/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_23d6dae1aa9b4c8c574eed2223e49db3/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-Wextra', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_10c4b202f8593be160f24fb3b5ecfa5d/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_10c4b202f8593be160f24fb3b5ecfa5d/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_23d6dae1aa9b4c8c574eed2223e49db3/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_10c4b202f8593be160f24fb3b5ecfa5d/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 ==>
 
 int main(int argc, char **argv) {
@@ -899,12 +899,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_90523304ec12a4372c7a8dcacda8e783/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_dd106316280ebdf9d75bf5b1c43f6cc2/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-Wnon-virtual-dtor', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_90523304ec12a4372c7a8dcacda8e783/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_90523304ec12a4372c7a8dcacda8e783/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-Wnon-virtual-dtor', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_dd106316280ebdf9d75bf5b1c43f6cc2/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_dd106316280ebdf9d75bf5b1c43f6cc2/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_90523304ec12a4372c7a8dcacda8e783/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_dd106316280ebdf9d75bf5b1c43f6cc2/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 ==>
 
 int main(int argc, char **argv) {
@@ -913,12 +913,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_4f1cf0f070baacf4a9c14a79a4a718f1/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_69e332ada9ad05c52bac10145e9f9da9/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-Wno-unused-parameter', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_4f1cf0f070baacf4a9c14a79a4a718f1/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_4f1cf0f070baacf4a9c14a79a4a718f1/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-Wno-unused-parameter', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_69e332ada9ad05c52bac10145e9f9da9/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_69e332ada9ad05c52bac10145e9f9da9/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_4f1cf0f070baacf4a9c14a79a4a718f1/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_69e332ada9ad05c52bac10145e9f9da9/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 ==>
 
 int main(int argc, char **argv) {
@@ -927,12 +927,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_d44942f52f4e210760635155a798f2b6/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_84a5d9d46383b0171e2d098f26e2323e/test.cpp[0m
 
-['/usr/bin/g++', '-std=c++14', '-Werror', '-fdiagnostics-color', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_d44942f52f4e210760635155a798f2b6/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_d44942f52f4e210760635155a798f2b6/testbuild/testprog[0m
+['/usr/bin/g++', '-std=c++14', '-Werror', '-fdiagnostics-color', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_84a5d9d46383b0171e2d098f26e2323e/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_84a5d9d46383b0171e2d098f26e2323e/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_d44942f52f4e210760635155a798f2b6/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', 'test.cpp.1.o', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_84a5d9d46383b0171e2d098f26e2323e/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 -O2 -g -pedantic -Wall -Wextra -Wnon-virtual-dtor -Wno-unused-parameter -fdiagnostics-color
 ------------------------------------------
 Checking supported LINKFLAGS
@@ -944,10 +944,10 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_0bfb6d2f308c3e00833075c97229b5c6/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_be34da19a9a73d91cc70e1d1abfb5518/test.cpp[0m
 
-['/usr/bin/g++', '-O2', '-g', '-pedantic', '-Wall', '-Wextra', '-Wnon-virtual-dtor', '-Wno-unused-parameter', '-fdiagnostics-color', '-std=c++14', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_0bfb6d2f308c3e00833075c97229b5c6/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_0bfb6d2f308c3e00833075c97229b5c6/testbuild/testprog[0m
+['/usr/bin/g++', '-O2', '-g', '-pedantic', '-Wall', '-Wextra', '-Wnon-virtual-dtor', '-Wno-unused-parameter', '-fdiagnostics-color', '-std=c++14', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_POINT_TO_POINT=1', '-DHAVE_NS3_APPLICATIONS=1', '-DHAVE_NS3_MOBILITY=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_ANTENNA=1', '-DHAVE_NS3_AODV=1', '-DHAVE_NS3_BRIDGE=1', '-DHAVE_NS3_BUILDINGS=1', '-DHAVE_NS3_CONFIG_STORE=1', '-DHAVE_NS3_CSMA=1', '-DHAVE_NS3_CSMA_LAYOUT=1', '-DHAVE_NS3_DSDV=1', '-DHAVE_NS3_DSR=1', '-DHAVE_NS3_ENERGY=1', '-DHAVE_NS3_FD_NET_DEVICE=1', '-DHAVE_NS3_FLOW_MONITOR=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_LTE=1', '-DHAVE_NS3_MESH=1', '-DHAVE_NS3_MPI=1', '-DHAVE_NS3_NETANIM=1', '-DHAVE_NS3_NIX_VECTOR_ROUTING=1', '-DHAVE_NS3_OLSR=1', '-DHAVE_NS3_POINT_TO_POINT_LAYOUT=1', '-DHAVE_NS3_PROPAGATION=1', '-DHAVE_NS3_SPECTRUM=1', '-DHAVE_NS3_STATS=1', '-DHAVE_NS3_TAP_BRIDGE=1', '-DHAVE_NS3_TOPOLOGY_READ=1', '-DHAVE_NS3_UAN=1', '-DHAVE_NS3_VIRTUAL_NET_DEVICE=1', '-DHAVE_NS3_VISUALIZER=1', '-DHAVE_NS3_WIFI=1', '-DHAVE_NS3_WIMAX=1', '../test.cpp', '-c', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_be34da19a9a73d91cc70e1d1abfb5518/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_be34da19a9a73d91cc70e1d1abfb5518/testbuild/testprog[0m
 
-['/usr/bin/g++', '-fuse-ld=gold', '-Werror', '-Wl,-O1', 'test.cpp.1.o', '-o/home/yin/Desktop/ndnSIM/scenario/build/.conf_check_0bfb6d2f308c3e00833075c97229b5c6/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
+['/usr/bin/g++', '-fuse-ld=gold', '-Werror', '-Wl,-O1', 'test.cpp.1.o', '-o/home/yin/Desktop/ndn/ndnSIM/scenario/build/.conf_check_be34da19a9a73d91cc70e1d1abfb5518/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-Wl,--no-as-needed']
 -Wl,-O1
