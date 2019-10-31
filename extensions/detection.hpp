@@ -41,9 +41,6 @@ private:
   void
   GetPit();
 
-  void 
-  CalcGini();
-
   struct Info {
     string prefix;
     mutable int num;

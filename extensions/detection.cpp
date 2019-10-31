@@ -80,7 +80,7 @@ DetectionApp::GetPit()
     // NS_LOG_DEBUG("+++ in record end +++");
   }
 
-  if(count == 10){
+  if(count == 1){
     double gini = 1.0;
     for(auto iter = prefix.begin(); iter != prefix.end(); iter ++){
       NS_LOG_DEBUG((*iter).prefix << " " << (*iter).num);
@@ -93,21 +93,8 @@ DetectionApp::GetPit()
     // NS_LOG_DEBUG(gini);
   }
   
-  Simulator::Schedule(Seconds(0.1), &DetectionApp::GetPit, this);
-
-}
-
-void
-DetectionApp::CalcGini(){
-  double gini = 1.0;
-  for(auto iter = prefix.begin(); iter != prefix.end(); iter ++){
-    NS_LOG_DEBUG((*iter).prefix << " " << (*iter).num);
-    gini -= double((*iter).num * (*iter).num) / (size * size);
-  }
-  prefix.clear();
-  size = 0;
-  NS_LOG_DEBUG(gini);
   Simulator::Schedule(Seconds(1.0), &DetectionApp::GetPit, this);
+
 }
 
 

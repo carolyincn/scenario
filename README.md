@@ -4,7 +4,13 @@ Available simulations
 ddos-scenario-1755
 ---------------
 
-./waf --run=ddos-scenario-1755 NS_LOG=DetectionApp >& results/output
+./waf --run=ddos-scenario-1755 NS_LOG=DetectionApp
+
+Modify ../ns-3/src/ndnSIM/NFD/daemon/fw/forwarder.cpp to change PIT size.
+
+    int tmp = ns3::Simulator::GetContext();
+    if (tmp > 22 && tmp < 91 && m_pit.size() > 20) // only limit PIT size on routers
+      return;
 
 Prerequisites
 =============
