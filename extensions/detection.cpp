@@ -83,7 +83,7 @@ DetectionApp::GetPit()
   if(count == 10){
     double gini = 1.0;
     for(auto iter = prefix.begin(); iter != prefix.end(); iter ++){
-      // NS_LOG_DEBUG((*iter).prefix << " " << (*iter).num);
+      NS_LOG_DEBUG((*iter).prefix << " " << (*iter).num);
       gini -= double((*iter).num * (*iter).num) / (size * size);
     }
     prefix.clear();
