@@ -49,7 +49,7 @@ main(int argc, char* argv[])
 
   AnnotatedTopologyReader topologyReader("", 1);
   // topologyReader.SetFileName("/home/yin/Desktop/ndn/ndnSIM/scenario/scenarios/topo-small.txt");
-  topologyReader.SetFileName("/home/yin/Desktop/ndnSIM/scenario/scenarios/topo-1755.txt");
+  topologyReader.SetFileName("/home/yin/Desktop/ndnSIM/scenario/scenarios/topo-small.txt");
   topologyReader.Read();
   
   ndn::StackHelper ndnHelper;
@@ -95,8 +95,8 @@ main(int argc, char* argv[])
   set< Ptr<Node> > evils;
   set< Ptr<Node> > angels;
 
-  int badCount = 30;
-  int prodCount = 20;
+  int badCount = 3;
+  int prodCount = 2;
   while (evils.size () < badCount){
     Ptr<UniformRandomVariable> rand = CreateObject<UniformRandomVariable>();
     Ptr<Node> node = leaves.Get (rand->GetInteger(0, leafnum - 1));
@@ -159,7 +159,7 @@ main(int argc, char* argv[])
   // evil traffic
   ndn::AppHelper evilAppHelper("ns3::ndn::ConsumerCbr"); // ConsumerZipfMandelbrot
   // evilAppHelper.SetPrefix("/evil");
-  evilAppHelper.SetAttribute("Frequency", StringValue("100"));
+  evilAppHelper.SetAttribute("Frequency", StringValue("200"));
   for (NodeContainer::Iterator node = evilNodes.Begin (); node != evilNodes.End (); node++){
     ApplicationContainer evilApp;
     evilAppHelper.SetPrefix ("/p/evil/"+Names::FindName (*node));
@@ -170,7 +170,7 @@ main(int argc, char* argv[])
 
   // normal traffic
   ndn::AppHelper goodAppHelper("ns3::ndn::ConsumerZipfMandelbrot"); // ConsumerZipfMandelbrot
-  goodAppHelper.SetAttribute("Frequency", StringValue("10"));
+  goodAppHelper.SetAttribute("Frequency", StringValue("100"));
   for (NodeContainer::Iterator node = goodNodes.Begin (); node != goodNodes.End (); node++){
     ApplicationContainer goodApp;
     goodAppHelper.SetPrefix ("/p/good/"+Names::FindName (*node));
@@ -186,8 +186,8 @@ main(int argc, char* argv[])
   producerApp.SetAttribute("PayloadSize", StringValue("1024"));
   producerApp.Install(producerNodes); // last node  
 
-  ndn::AppHelper detectionApp("DetectionApp");
-  detectionApp.Install(gw); // last node 
+  ndn::AppHelper GiniDetectionApp("GiniDetectionApp");
+  GiniDetectionApp.Install(gw); // last node 
 
   Simulator::Stop(Seconds(20.0));
   ndn::L3RateTracer::InstallAll("results/rate-trace.txt", Seconds(1.0));

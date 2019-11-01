@@ -27,7 +27,7 @@ link
 leaf-1	gw-1	10Mbps	1	10ms	100
 leaf-2	gw-1	10Mbps	1	10ms	100
 leaf-3	gw-2	10Mbps	1	10ms	100
-leaf-4	gw-3	10Mbps	1	10ms	100
+leaf-4	gw-2	10Mbps	1	10ms	100
 gw-1	gw-3	10Mbps	1	10ms	100
 gw-2	gw-3	10Mbps	1	10ms	100
 gw-2	gw-4	10Mbps	1	10ms	100

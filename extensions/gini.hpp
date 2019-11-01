@@ -1,7 +1,7 @@
 // detection.hpp
 
-#ifndef DETECTION_APP_H_
-#define DETECTION_APP_H_
+#ifndef GINI_DETECTION_APP_H_
+#define GINI_DETECTION_APP_H_
 
 #include "ns3/ndnSIM/apps/ndn-app.hpp"
 #include "ns3/string.h"
@@ -13,9 +13,9 @@ using namespace std;
 
 namespace ns3 {
 namespace ndn {
-class DetectionApp : public ndn::App {
+class GiniDetectionApp : public ndn::App {
 public:
-  // register NS-3 type "DetectionApp"
+  // register NS-3 type "GiniDetectionApp"
   static TypeId
   GetTypeId();
 
@@ -55,11 +55,8 @@ private:
 
   ofstream mycout;
 
-  
-
-
 };
 } // namespace ndn
 } // namespace ns3
 
-#endif // DETECTION_APP_H_
+#endif // GINI_DETECTION_APP_H_

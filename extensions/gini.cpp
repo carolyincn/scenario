@@ -1,6 +1,6 @@
 // custom-app.cpp
 
-#include "detection.hpp"
+#include "gini.hpp"
 
 #include "ns3/ptr.h"
 #include "ns3/log.h"
@@ -13,23 +13,23 @@
 #include "ns3/random-variable-stream.h"
 #include "ns3/names.h"
 // #inlcude <fstream>
-NS_LOG_COMPONENT_DEFINE("DetectionApp");
+NS_LOG_COMPONENT_DEFINE("GiniDetectionApp");
 using namespace std;
 namespace ns3 {
 namespace ndn {
-NS_OBJECT_ENSURE_REGISTERED(DetectionApp);
+NS_OBJECT_ENSURE_REGISTERED(GiniDetectionApp);
 
 // register NS-3 type
 TypeId
-DetectionApp::GetTypeId()
+GiniDetectionApp::GetTypeId()
 {
-  static TypeId tid = TypeId("DetectionApp").SetParent<ndn::App>().AddConstructor<DetectionApp>();
+  static TypeId tid = TypeId("GiniDetectionApp").SetParent<ndn::App>().AddConstructor<GiniDetectionApp>();
   return tid;
 }
 
 // Processing upon start of the application
 void
-DetectionApp::StartApplication()
+GiniDetectionApp::StartApplication()
 {
   // initialize ndn::App
   ndn::App::StartApplication();
@@ -39,21 +39,30 @@ DetectionApp::StartApplication()
   // ndn::FibHelper::AddRoute(GetNode(), "/prefix/sub", m_face, 0);
 
   // Schedule send of first interest
-  Simulator::Schedule(Seconds(0.0), &DetectionApp::GetPit, this);
-  // Simulator::Schedule(Seconds(1.0), &DetectionApp::CalcGini, this);
+  // Simulator::Schedule(Seconds(0.0), &GiniDetectionApp::GetPit, this);
+  // Simulator::Schedule(Seconds(1.0), &GiniDetectionApp::CalcGini, this);
 }
 
 // Processing when application is stopped
 void
-DetectionApp::StopApplication()
+GiniDetectionApp::StopApplication()
 {
   // cleanup ndn::App
   ndn::App::StopApplication();
   mycout.close();
 }
 
+// void
+// GiniDetectionApp::OnInterest(std::shared_ptr<const ndn::Interest> interest)
+// {
+//   ndn::App::OnInterest(interest);
+//   NS_LOG_DEBUG("Do nothing for incoming interest for" << interest->getName());
+// }
+
+
+
 void
-DetectionApp::GetPit()
+GiniDetectionApp::GetPit()
 {
   auto forwarder = GetNode()->GetObject<ndn::L3Protocol>()->getForwarder();
   auto begin = forwarder->getPit().begin();
@@ -93,7 +102,7 @@ DetectionApp::GetPit()
     // NS_LOG_DEBUG(gini);
   }
   
-  Simulator::Schedule(Seconds(1.0), &DetectionApp::GetPit, this);
+  Simulator::Schedule(Seconds(1.0), &GiniDetectionApp::GetPit, this);
 
 }
 
