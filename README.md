@@ -4,7 +4,7 @@ Available simulations
 ddos-scenario-1755
 ---------------
 
-./waf --run=ddos-scenario-1755 NS_LOG=DetectionApp
+./waf --run=ddos-scenario-1755 NS_LOG=GiniDetectionApp
 
 Modify ../ns-3/src/ndnSIM/NFD/daemon/fw/forwarder.cpp to change PIT size.
 

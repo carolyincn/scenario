@@ -33,8 +33,8 @@ main(int argc, char* argv[])
   // setting default parameters for PointToPoint links and channels
   Config::SetDefault("ns3::PointToPointNetDevice::DataRate", StringValue("1Mbps"));
   Config::SetDefault("ns3::PointToPointChannel::Delay", StringValue("10ms"));
-  // Config::SetDefault("ns3::QueueBase::MaxPackets", StringValue("20"));
-  Config::SetDefault("ns3::QueueBase::MaxSize", StringValue("20p"));
+  Config::SetDefault("ns3::QueueBase::MaxPackets", StringValue("20"));
+  // Config::SetDefault("ns3::QueueBase::MaxSize", StringValue("20p"));
 
 
   // Read optional command-line parameters (e.g., enable visualizer with ./waf --run=<> --visualize
@@ -48,8 +48,8 @@ main(int argc, char* argv[])
   // Creating nodes
 
   AnnotatedTopologyReader topologyReader("", 1);
-  // topologyReader.SetFileName("/home/yin/Desktop/ndn/ndnSIM/scenario/scenarios/topo-small.txt");
-  topologyReader.SetFileName("/home/yin/Desktop/ndnSIM/scenario/scenarios/topo-small.txt");
+  topologyReader.SetFileName("/home/yin/Desktop/ndn/ndnSIM/scenario/scenarios/topo-small.txt");
+  // topologyReader.SetFileName("/home/yin/Desktop/ndnSIM/scenario/scenarios/topo-small.txt");
   topologyReader.Read();
   
   ndn::StackHelper ndnHelper;
@@ -150,8 +150,9 @@ main(int argc, char* argv[])
     producerNodes.Add (node);
   });
   cout << endl;
-
-  ndn::StrategyChoiceHelper::InstallAll("/", "/localhost/nfd/strategy/best-route");
+// 
+  // ndn::StrategyChoiceHelper::InstallAll("/", "/localhost/nfd/strategy/best-route");
+  ndn::StrategyChoiceHelper::InstallAll("/", "/localhost/nfd/strategy/gini-strategy");
 
   grouter.AddOrigins ("/p", producerNodes);
   grouter.CalculateRoutes ();
@@ -159,7 +160,7 @@ main(int argc, char* argv[])
   // evil traffic
   ndn::AppHelper evilAppHelper("ns3::ndn::ConsumerCbr"); // ConsumerZipfMandelbrot
   // evilAppHelper.SetPrefix("/evil");
-  evilAppHelper.SetAttribute("Frequency", StringValue("200"));
+  evilAppHelper.SetAttribute("Frequency", StringValue("20"));
   for (NodeContainer::Iterator node = evilNodes.Begin (); node != evilNodes.End (); node++){
     ApplicationContainer evilApp;
     evilAppHelper.SetPrefix ("/p/evil/"+Names::FindName (*node));
@@ -170,7 +171,7 @@ main(int argc, char* argv[])
 
   // normal traffic
   ndn::AppHelper goodAppHelper("ns3::ndn::ConsumerZipfMandelbrot"); // ConsumerZipfMandelbrot
-  goodAppHelper.SetAttribute("Frequency", StringValue("100"));
+  goodAppHelper.SetAttribute("Frequency", StringValue("10"));
   for (NodeContainer::Iterator node = goodNodes.Begin (); node != goodNodes.End (); node++){
     ApplicationContainer goodApp;
     goodAppHelper.SetPrefix ("/p/good/"+Names::FindName (*node));
@@ -194,6 +195,9 @@ main(int argc, char* argv[])
   ofstream mycout("results/gini.txt", ios::out);
   mycout << "Time Node gini" << endl;
   mycout.close();
+  ofstream mycout1("results/interest.txt", ios::out);
+  mycout1 << "Time Node interest" << endl;
+  mycout1.close();
   // Simulator::Schedule (Seconds (1.0), PrintTime, Seconds (0.1), r1);
 
   Simulator::Run();

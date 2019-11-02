@@ -7,7 +7,7 @@ data = read.table("gini.txt", header=T)
 data$Node = factor(data$Node)
 
 fa = levels(data$Node)
-
+fa
 pdf("gini.pdf")
 
 for(i in 1:ceiling(length(fa)/16)){
