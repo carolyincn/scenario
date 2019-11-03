@@ -48,7 +48,7 @@ main(int argc, char* argv[])
   // Creating nodes
 
   AnnotatedTopologyReader topologyReader("", 1);
-  topologyReader.SetFileName("/home/yin/Desktop/ndn/ndnSIM/scenario/scenarios/topo-small.txt");
+  topologyReader.SetFileName("/home/yin/Desktop/ndn/ndnSIM/scenario/scenarios/topo-1755.txt");
   // topologyReader.SetFileName("/home/yin/Desktop/ndnSIM/scenario/scenarios/topo-small.txt");
   topologyReader.Read();
   
@@ -95,8 +95,8 @@ main(int argc, char* argv[])
   set< Ptr<Node> > evils;
   set< Ptr<Node> > angels;
 
-  int badCount = 3;
-  int prodCount = 2;
+  int badCount = 30;
+  int prodCount = 20;
   while (evils.size () < badCount){
     Ptr<UniformRandomVariable> rand = CreateObject<UniformRandomVariable>();
     Ptr<Node> node = leaves.Get (rand->GetInteger(0, leafnum - 1));
@@ -151,8 +151,10 @@ main(int argc, char* argv[])
   });
   cout << endl;
 // 
-  // ndn::StrategyChoiceHelper::InstallAll("/", "/localhost/nfd/strategy/best-route");
-  ndn::StrategyChoiceHelper::InstallAll("/", "/localhost/nfd/strategy/gini-strategy");
+  ndn::StrategyChoiceHelper::Install(leaves, "/", "/localhost/nfd/strategy/best-route");
+  ndn::StrategyChoiceHelper::Install(bb, "/", "/localhost/nfd/strategy/best-route");
+  ndn::StrategyChoiceHelper::Install(gw, "/", "/localhost/nfd/strategy/cusum-strategy");
+  // ndn::StrategyChoiceHelper::Install(gw, "/", "/localhost/nfd/strategy/best-route");
 
   grouter.AddOrigins ("/p", producerNodes);
   grouter.CalculateRoutes ();
@@ -160,7 +162,7 @@ main(int argc, char* argv[])
   // evil traffic
   ndn::AppHelper evilAppHelper("ns3::ndn::ConsumerCbr"); // ConsumerZipfMandelbrot
   // evilAppHelper.SetPrefix("/evil");
-  evilAppHelper.SetAttribute("Frequency", StringValue("20"));
+  evilAppHelper.SetAttribute("Frequency", StringValue("100"));
   for (NodeContainer::Iterator node = evilNodes.Begin (); node != evilNodes.End (); node++){
     ApplicationContainer evilApp;
     evilAppHelper.SetPrefix ("/p/evil/"+Names::FindName (*node));
@@ -195,9 +197,9 @@ main(int argc, char* argv[])
   ofstream mycout("results/gini.txt", ios::out);
   mycout << "Time Node gini" << endl;
   mycout.close();
-  ofstream mycout1("results/interest.txt", ios::out);
-  mycout1 << "Time Node interest" << endl;
-  mycout1.close();
+  // ofstream mycout1("results/interest.txt", ios::out);
+  // mycout1 << "Time Node interest" << endl;
+  // mycout1.close();
   // Simulator::Schedule (Seconds (1.0), PrintTime, Seconds (0.1), r1);
 
   Simulator::Run();

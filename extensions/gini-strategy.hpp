@@ -30,6 +30,8 @@
 #include "fw/process-nack-traits.hpp"
 #include "fw/retx-suppression-exponential.hpp"
 #include <fstream>
+#include "ns3/string.h"
+
 using namespace std;
 
 namespace nfd {
@@ -72,6 +74,24 @@ public:
 
 private:
   ofstream mycout;
+
+  struct PrefixInfo {
+    string prefix;
+    mutable int num;
+    bool operator < (const PrefixInfo &a) const{
+      return a.prefix < prefix;
+    }
+  };
+
+  set<PrefixInfo> m_prefixset;
+  int m_size = 0;
+  int m_id;
+  string m_name = "None";
+
+  void
+  printPrefixset();
+
+  double m_gini = 1.0;
 
 PUBLIC_WITH_TESTS_ELSE_PRIVATE:
   static const time::milliseconds RETX_SUPPRESSION_INITIAL;

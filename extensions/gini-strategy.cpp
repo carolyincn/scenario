@@ -71,13 +71,16 @@ GiniStrategy::GiniStrategy(Forwarder& forwarder, const Name& name)
       "GiniStrategy does not support version " + to_string(*parsed.version)));
   }
   this->setInstanceName(makeInstanceName(name, getStrategyName()));
-  mycout.open("results/interest.txt", ios::app);
+  mycout.open("results/gini.txt", ios::app);
+  // cout << m_id << endl;
+  ns3::Simulator::Schedule(ns3::Seconds(1.0), &GiniStrategy::printPrefixset, this);
 }
 
 const Name&
 GiniStrategy::getStrategyName()
 {
   static Name strategyName("ndn:/localhost/nfd/strategy/gini-strategy/%FD%05");
+  // cout << m_id << endl;
   return strategyName;
 }
 
@@ -141,11 +144,42 @@ findEligibleNextHopWithEarliestOutRecord(const Face& inFace, const Interest& int
 }
 
 void
+GiniStrategy::printPrefixset(){
+  // cout << "===== " << m_name << " " << ns3::Simulator::Now().ToInteger(ns3::Time::S) << " =====" << endl;
+  set<PrefixInfo> temp = m_prefixset;
+  m_prefixset.clear();
+  int t_size = m_size;
+  m_size = 0;
+  m_gini = 1.0;
+  for(auto iter = temp.begin(); iter != temp.end(); iter ++){
+    // NS_LOG_DEBUG((*iter).prefix << " " << (*iter).num);
+    // cout << (*iter).prefix << " " << (*iter).num << endl;
+    m_gini -= double((*iter).num * (*iter).num) / (t_size * t_size);
+  }
+  // cout << m_gini << endl;
+  if (m_name != "None")
+    mycout << ns3::Simulator::Now().ToInteger(ns3::Time::S) << " " << m_name << " " << m_gini << endl;
+  ns3::Simulator::Schedule(ns3::Seconds(1.0), &GiniStrategy::printPrefixset, this);
+}
+
+void
 GiniStrategy::afterReceiveInterest(const Face& inFace, const Interest& interest,
                                          const shared_ptr<pit::Entry>& pitEntry)
 {
-  int temp = ns3::Simulator::GetContext();
-  mycout << ns3::Simulator::Now().ToDouble (ns3::Time::S) << " " << temp << " " << interest << endl;
+  // int temp = ns3::Simulator::GetContext();
+  // mycout << ns3::Simulator::Now().ToDouble (ns3::Time::S) << " " << temp << " " << interest << endl;
+  m_id = ns3::Simulator::GetContext();
+  m_name = ns3::Names::FindName(ns3::NodeList::GetNode(m_id));
+  m_size ++;
+  auto name = interest.toUri().substr(0, 21);
+  PrefixInfo t = {name};
+  auto iter = m_prefixset.find(t);
+  if(iter == m_prefixset.end()){
+    PrefixInfo temp = {name, 1};
+    m_prefixset.insert(temp);
+  } else{
+    (*iter).num ++;
+  }
   RetxSuppressionResult suppression = m_retxSuppression.decidePerPitEntry(*pitEntry);
   if (suppression == RetxSuppressionResult::SUPPRESS) {
     NFD_LOG_DEBUG(interest << " from=" << inFace.getId()
