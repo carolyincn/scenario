@@ -27,6 +27,12 @@ using namespace std;
 namespace ns3 {
 // ofstream outfile;
 
+void PrintTime (Time next)
+{
+  std::cout << "=== " << Simulator::Now ().ToDouble (Time::S) << "s ===" << std::endl;
+  Simulator::Schedule (next, PrintTime, next);
+}
+
 int
 main(int argc, char* argv[])
 {
@@ -36,19 +42,15 @@ main(int argc, char* argv[])
   Config::SetDefault("ns3::QueueBase::MaxPackets", StringValue("20"));
   // Config::SetDefault("ns3::QueueBase::MaxSize", StringValue("20p"));
 
-
   // Read optional command-line parameters (e.g., enable visualizer with ./waf --run=<> --visualize
   CommandLine cmd;
   cmd.Parse(argc, argv);
 
   // Creating nodes
-  // Ptr<Node> node = CreateObject<Node>();
-
-
-  // Creating nodes
 
   AnnotatedTopologyReader topologyReader("", 1);
-  topologyReader.SetFileName("/home/yin/Desktop/ndn/ndnSIM/scenario/scenarios/topo-1755.txt");
+  // topologyReader.SetFileName("/home/yin/Desktop/ndn/ndnSIM/scenario/scenarios/topo-1755.txt");
+  topologyReader.SetFileName("/home/yin/Desktop/ndn/ndnSIM/scenario/scenarios/topo-tree.txt");
   // topologyReader.SetFileName("/home/yin/Desktop/ndnSIM/scenario/scenarios/topo-small.txt");
   topologyReader.Read();
   
@@ -95,8 +97,8 @@ main(int argc, char* argv[])
   set< Ptr<Node> > evils;
   set< Ptr<Node> > angels;
 
-  int badCount = 30;
-  int prodCount = 20;
+  int badCount = 7;
+  int prodCount = bbnum;
   while (evils.size () < badCount){
     Ptr<UniformRandomVariable> rand = CreateObject<UniformRandomVariable>();
     Ptr<Node> node = leaves.Get (rand->GetInteger(0, leafnum - 1));
@@ -151,9 +153,9 @@ main(int argc, char* argv[])
   });
   cout << endl;
 // 
-  ndn::StrategyChoiceHelper::Install(leaves, "/", "/localhost/nfd/strategy/best-route");
-  ndn::StrategyChoiceHelper::Install(bb, "/", "/localhost/nfd/strategy/best-route");
-  ndn::StrategyChoiceHelper::Install(gw, "/", "/localhost/nfd/strategy/cusum-strategy");
+  // ndn::StrategyChoiceHelper::Install(leaves, "/", "/localhost/nfd/strategy/best-route");
+  // ndn::StrategyChoiceHelper::Install(bb, "/", "/localhost/nfd/strategy/best-route");
+  // // ndn::StrategyChoiceHelper::Install(gw, "/", "/localhost/nfd/strategy/cusum-strategy");
   // ndn::StrategyChoiceHelper::Install(gw, "/", "/localhost/nfd/strategy/best-route");
 
   grouter.AddOrigins ("/p", producerNodes);
@@ -161,27 +163,77 @@ main(int argc, char* argv[])
 
   // evil traffic
   ndn::AppHelper evilAppHelper("ns3::ndn::ConsumerCbr"); // ConsumerZipfMandelbrot
-  // evilAppHelper.SetPrefix("/evil");
-  evilAppHelper.SetAttribute("Frequency", StringValue("100"));
+  evilAppHelper.SetAttribute("Frequency", StringValue("200"));
+  evilAppHelper.SetAttribute("Randomize", StringValue("uniform"));
   for (NodeContainer::Iterator node = evilNodes.Begin (); node != evilNodes.End (); node++){
     ApplicationContainer evilApp;
-    evilAppHelper.SetPrefix ("/p/evil/"+Names::FindName (*node));
+    evilAppHelper.SetPrefix ("/p/evil/");
     evilApp.Add (evilAppHelper.Install (*node));
-    evilApp.Start (Seconds (10.0));
-    evilApp.Stop (Seconds (20.0));
+    evilApp.Start (Seconds (120.0));
+    evilApp.Stop (Seconds (240.0));
   }
 
-  // normal traffic
+  // ndn::AppHelper evilAppHelper1("ns3::ndn::ConsumerCbr"); // ConsumerZipfMandelbrot
+  // evilAppHelper1.SetAttribute("Frequency", StringValue("20"));
+  // evilAppHelper1.SetAttribute("Randomize", StringValue("uniform"));
+  // for (NodeContainer::Iterator node = evilNodes.Begin (); node != evilNodes.End (); node++){
+  //   ApplicationContainer evilApp;
+  //   evilAppHelper1.SetPrefix ("/p/even/");
+  //   evilApp.Add (evilAppHelper1.Install (*node));
+  //   evilApp.Start (Seconds (120.0));
+  //   evilApp.Stop (Seconds (240.0));
+  // }
+  // for(int i = 120; i < 240; i ++){
+  //   Ptr<NormalRandomVariable> rand = CreateObject<NormalRandomVariable>();
+  //   evilAppHelper.SetAttribute("Frequency", StringValue(to_string(rand->GetInteger(20, 5, 50))));
+  //   for (NodeContainer::Iterator node = evilNodes.Begin (); node != evilNodes.End (); node++){
+  //     ApplicationContainer evilApp;
+  //     evilAppHelper.SetPrefix ("/p/evil");
+  //     evilApp.Add (evilAppHelper.Install (*node));
+  //     evilApp.Start (Seconds (i));
+  //     evilApp.Stop (Seconds (i + 1));
+  //   }
+  // }
+
   ndn::AppHelper goodAppHelper("ns3::ndn::ConsumerZipfMandelbrot"); // ConsumerZipfMandelbrot
   goodAppHelper.SetAttribute("Frequency", StringValue("10"));
-  for (NodeContainer::Iterator node = goodNodes.Begin (); node != goodNodes.End (); node++){
+  for (NodeContainer::Iterator node = leaves.Begin (); node != leaves.End (); node++){
     ApplicationContainer goodApp;
-    goodAppHelper.SetPrefix ("/p/good/"+Names::FindName (*node));
-    // goodAppHelper.SetAttribute ("AvgGap", TimeValue (Seconds (1.100 / maxNonCongestionShare)));
+    goodAppHelper.SetPrefix ("/p/good/");
     goodApp.Add (goodAppHelper.Install (*node));
-    // UniformVariable rand (0, 1);
-    // goodApp.Start (Seconds (0.0) + Time::FromDouble (rand.GetValue (), Time::S));
   }
+  
+  // for(int i = 0; i < 150; i ++){
+  //   Ptr<ExponentialRandomVariable> rand = CreateObject<ExponentialRandomVariable>();
+  //   cout << rand->GetInteger(9,40) + 1 << ",";
+  // }
+  // cout << endl;
+  // for(int i = 0; i < 300; i ++){
+  //   // Ptr<NormalRandomVariable> rand = CreateObject<NormalRandomVariable>();
+  //   // goodAppHelper.SetAttribute("Frequency", StringValue(to_string(rand->GetInteger(10, 5, 50))));
+  //   Ptr<ExponentialRandomVariable> rand = CreateObject<ExponentialRandomVariable>();
+  //   goodAppHelper.SetAttribute("Frequency", StringValue(to_string(rand->GetInteger(20, 50) + 1)));
+  //   // goodAppHelper.SetAttribute("Frequency", StringValue("10"));
+  //   for (NodeContainer::Iterator node = leaves.Begin (); node != leaves.End (); node++){
+  //     ApplicationContainer goodApp;
+  //     goodAppHelper.SetPrefix ("/p/good/rand");
+  //     goodApp.Add (goodAppHelper.Install (*node));
+  //     goodApp.Start (Seconds (i));
+  //     goodApp.Stop (Seconds (i + 1));
+  //   }
+  // }
+
+  // ndn::AppHelper randAppHelper("ns3::ndn::ConsumerZipfMandelbrot"); // ConsumerZipfMandelbrot
+  // randAppHelper.SetAttribute("Frequency", StringValue("50"));
+  // randAppHelper.SetPrefix ("/p/good/rand");
+  // for(int i = 0; i < 150; i ++){
+  //   Ptr<UniformRandomVariable> rand = CreateObject<UniformRandomVariable>();
+  //   ApplicationContainer goodApp;
+  //   goodApp.Add (randAppHelper.Install (leaves.Get(rand->GetInteger(0, 15))));
+  //   goodApp.Start (Seconds (i));
+  //   goodApp.Stop (Seconds (i + 1));
+  // }
+  
 
   ndn::AppHelper producerApp("ns3::ndn::Producer");
   // Producer will reply to all requests starting with /prefix
@@ -189,18 +241,16 @@ main(int argc, char* argv[])
   producerApp.SetAttribute("PayloadSize", StringValue("1024"));
   producerApp.Install(producerNodes); // last node  
 
-  ndn::AppHelper GiniDetectionApp("GiniDetectionApp");
-  GiniDetectionApp.Install(gw); // last node 
+  // ndn::AppHelper GiniDetectionApp("GiniDetectionApp");
+  // GiniDetectionApp.Install(gw); // last node 
 
-  Simulator::Stop(Seconds(20.0));
-  ndn::L3RateTracer::InstallAll("results/rate-trace.txt", Seconds(1.0));
-  ofstream mycout("results/gini.txt", ios::out);
-  mycout << "Time Node gini" << endl;
+  Simulator::Stop(Seconds(300.0));
+  ndn::L3RateTracer::InstallAll("results/rate.txt", Seconds(1.0));
+  ofstream mycout("results/index.txt", ios::out);
+  mycout << "Time Node entropy gini t05 enrate ginirate t05rate apa cusum m_cusum" << endl;
   mycout.close();
-  // ofstream mycout1("results/interest.txt", ios::out);
-  // mycout1 << "Time Node interest" << endl;
-  // mycout1.close();
-  // Simulator::Schedule (Seconds (1.0), PrintTime, Seconds (0.1), r1);
+
+  // Simulator::Schedule (Seconds (1.0), PrintTime, Seconds (1.0));
 
   Simulator::Run();
   Simulator::Destroy();

@@ -148,19 +148,16 @@ findEligibleNextHopWithEarliestOutRecord(const Face& inFace, const Interest& int
 void
 CusumStrategy::printPrefixset(){
   cout << "===== " << m_name << " " << ns3::Simulator::Now().ToInteger(ns3::Time::S) << " =====" << endl;
-  // set<PrefixInfo> temp = m_prefixset;
-  // m_prefixset.clear();
-  // int t_size = m_size;
   int t_size = m_prefixwindow.size();
-  m_gini = 1.0;
+  double entropy = 0.0;
   for(auto iter = m_prefixset.begin(); iter != m_prefixset.end(); iter ++){
-    // NS_LOG_DEBUG((*iter).prefix << " " << (*iter).num);
     cout << (*iter).prefix << " " << (*iter).num << endl;
-    m_gini -= double((*iter).num * (*iter).num) / (t_size * t_size);
+    double p = double((*iter).num )/ t_size;
+    entropy -= p * log(p) / log(2);
   }
   // cout << m_gini << endl;
   if (m_name != "None")
-    mycout << ns3::Simulator::Now().ToInteger(ns3::Time::S) << " " << m_name << " " << m_gini << endl;
+    mycout << ns3::Simulator::Now().ToInteger(ns3::Time::S) << " " << m_name << " " << entropy << endl;
   ns3::Simulator::Schedule(ns3::Seconds(1.0), &CusumStrategy::printPrefixset, this);
 }
 
@@ -177,6 +174,8 @@ CusumStrategy::afterReceiveInterest(const Face& inFace, const Interest& interest
   auto found = m_prefixset.find({m_prefixwindow.front()});
     if(found != m_prefixset.end()){
       (*found).num --;
+      if((*found).num == 0)
+        m_prefixset.erase(found);
       m_prefixwindow.erase(m_prefixwindow.begin());
     }
   }

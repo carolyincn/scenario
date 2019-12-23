@@ -85,8 +85,6 @@ private:
 
   set<PrefixInfo> m_prefixset;
   vector<string> m_prefixwindow;
-  // int m_size = 0;
-  // int m_id;
   string m_name = "None";
 
   void

@@ -1,0 +1,79 @@
+# any empty lines and lines starting with '#' symbol is ignored
+
+# The file should contain exactly two sections: router and link, each starting with the corresponding keyword
+
+# router section defines topology nodes and their relative positions (e.g., to use in visualizer)
+router
+
+# each line in this section represents one router and should have the following data
+# node  comment	 yPos	xPos
+
+leaf-1	NA	0	0
+leaf-2	NA	0	0
+leaf-3	NA	0	0
+leaf-4	NA	0	0
+leaf-5	NA	0	0
+leaf-6	NA	0	0
+leaf-7	NA	0	0
+leaf-8	NA	0	0
+leaf-9	NA	0	0
+leaf-10	NA	0	0
+leaf-11	NA	0	0
+leaf-12	NA	0	0
+leaf-13	NA	0	0
+leaf-14	NA	0	0
+leaf-15	NA	0	0
+leaf-16	NA	0	0
+
+gw-1	NA	0	0
+gw-2	NA	0	0
+gw-3	NA	0	0
+gw-4	NA	0	0
+gw-5	NA	0	0
+gw-6	NA	0	0
+gw-7	NA	0	0
+gw-8	NA	0	0
+gw-9	NA	0	0
+gw-10	NA	0	0
+gw-11	NA	0	0
+gw-12	NA	0	0
+gw-13	NA	0	0
+gw-14	NA	0	0
+gw-15	NA	0	0
+gw-16	NA	0	0
+
+bb-1	NA	0	0
+
+link
+leaf-1	gw-1	10Mbps	1	10ms	100
+leaf-2	gw-1	10Mbps	1	10ms	100
+leaf-3	gw-2	10Mbps	1	10ms	100
+leaf-4	gw-2	10Mbps	1	10ms	100
+leaf-5	gw-3	10Mbps	1	10ms	100
+leaf-6	gw-3	10Mbps	1	10ms	100
+leaf-7	gw-4	10Mbps	1	10ms	100
+leaf-8	gw-4	10Mbps	1	10ms	100
+leaf-9	gw-5	10Mbps	1	10ms	100
+leaf-10	gw-5	10Mbps	1	10ms	100
+leaf-11	gw-6	10Mbps	1	10ms	100
+leaf-12	gw-6	10Mbps	1	10ms	100
+leaf-13	gw-7	10Mbps	1	10ms	100
+leaf-14	gw-7	10Mbps	1	10ms	100
+leaf-15	gw-8	10Mbps	1	10ms	100
+leaf-16	gw-8	10Mbps	1	10ms	100
+gw-1	gw-9	10Mbps	1	10ms	100
+gw-2	gw-9	10Mbps	1	10ms	100
+gw-3	gw-10	10Mbps	1	10ms	100
+gw-4	gw-10	10Mbps	1	10ms	100
+gw-5	gw-11	10Mbps	1	10ms	100
+gw-6	gw-11	10Mbps	1	10ms	100
+gw-7	gw-12	10Mbps	1	10ms	100
+gw-8	gw-12	10Mbps	1	10ms	100
+gw-9	gw-13	10Mbps	1	10ms	100
+gw-10	gw-13	10Mbps	1	10ms	100
+gw-11	gw-14	10Mbps	1	10ms	100
+gw-12	gw-14	10Mbps	1	10ms	100
+gw-13	gw-15	10Mbps	1	10ms	100
+gw-14	gw-15	10Mbps	1	10ms	100
+gw-15	gw-16	10Mbps	1	10ms	100
+gw-16	bb-1	10Mbps	1	10ms	100
